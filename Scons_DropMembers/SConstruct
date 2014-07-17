@@ -1,0 +1,117 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+
+from os.path import basename
+
+Confirmed=1
+
+SterioComponentList = [\
+"sib",\
+"semo",\
+"sac",\
+"gen",\
+"pv",\
+"scb",\
+"fsd"\
+]
+ComponentListTemp = [ "ftrc", "fex"]
+
+MFC4T0_R1_2_COMPONENT_LIST = [\
+'sr',\
+'tsa',\
+'vdy',\
+'cml',\
+'ld',\
+'hla',\
+'ecm',\
+'cb',\
+'emo',\
+'em',\
+'cipp',\
+'vcl',\
+'fex',\
+'ofc',\
+'ped',\
+'sac',\
+'pc',\
+'fct',\
+'fpga',\
+'asf',\
+'fb',\
+'cct',\
+'vodca',\
+'gs',\
+]
+CompanentNames = ['gb']
+
+
+
+SubprojectsList = [\
+]
+
+
+MainProjectName="MFC400"
+SandboxName="MFC4T0_B2_01.02"
+
+ChangePackageList={"MFC400":"209686:2","srlcam":"203064:1"}
+ChangePackage=ChangePackageList[MainProjectName]
+
+SterioComponentListPlusSim = []
+for Comp in CompanentNames:
+	SterioComponentListPlusSim.append(Comp)
+	SterioComponentListPlusSim.append(Comp+"_sim")
+	SterioComponentListPlusSim.append(Comp+"_mo")
+	SterioComponentListPlusSim.append(Comp+"_wrp")
+
+	
+Options=" "
+
+if Confirmed == 1:
+	Options=" -Y"
+
+ComponentList = SterioComponentListPlusSim
+
+SandBox="D:\\Sandboxs\\"+SandboxName+"\\06_Algorithm"
+
+Subfolders=[]#Common.getSubdirs(SandBox)
+
+for root, subFolders, files in os.walk(SandBox):
+	Subfolders.append(root)
+
+RefCommand = "si drop --confirm --nodelete --cpid="+ ChangePackage + Options
+
+def dropCMPListFromSB:
+	for FolderNameLoop in Subfolders:
+		#print (FolderNameLoop)
+		FolderName = os.path.basename(FolderNameLoop)
+		#print(FolderName)
+		for Component in ComponentList:
+			if FolderName == Component:
+				Common.Tell ("------------------")
+				Common.Tell ("Subproject Figured")
+				Common.Tell ("------------------")
+				Common.Tell (FolderNameLoop)
+				ProjectName=FolderNameLoop+"/project.pj"
+				Common.Tell (ProjectName)
+				Command= RefCommand +"  "+ ProjectName
+				subprocess.call(Command, shell=True)
+				Common.Tell(Command)
+				Command="RD /S /Q "+ FolderNameLoop
+				subprocess.call(Command, shell=True)
+				Common.Tell(Command)
+				Common.Tell ("------------------")
+				Common.Tell ("Subproject Removed")
+				Common.Tell ("------------------")
+
+def DropListSubprojects:
+	for SubPrj in SubprojectsList:
+		Command= RefCommand +"  "+ SubPrj
+		
+def main:
+	dropCMPListFromSB()
+	
+main()

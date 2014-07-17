@@ -1,0 +1,678 @@
+scons: Reading SConscript files ...
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/tsa_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VDY_VehicleDynamics/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VDY_VehicleDynamics/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VDY_VehicleDynamics/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VDY_VehicleDynamics/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vdy_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CML_CommonMathLibrary/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CML_CommonMathLibrary/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CML_CommonMathLibrary/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CML_CommonMathLibrary/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cml_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ecm_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/emo_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/em_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CIPP_CommonImagePreProcessing/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CIPP_CommonImagePreProcessing/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CIPP_CommonImagePreProcessing/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CIPP_CommonImagePreProcessing/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FEX_FpgaExpert/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FEX_FpgaExpert/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FEX_FpgaExpert/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FEX_FpgaExpert/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fex_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ofc_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ped_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/pc_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fct_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FPGA_MFC400FieldProgGateArray/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FPGA_MFC400FieldProgGateArray/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FPGA_MFC400FieldProgGateArray/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FPGA_MFC400FieldProgGateArray/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fpga_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ASF_AlgoSubsystemFPGA/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ASF_AlgoSubsystemFPGA/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ASF_AlgoSubsystemFPGA/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ASF_AlgoSubsystemFPGA/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/asf_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FB_FPGABox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FB_FPGABox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FB_FPGABox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FB_FPGABox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/fb_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_mo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_mo/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_wrp/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_wrp/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+Failed
+si sharesubproject --cpid=209686:2 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath MFC4T0_B1_01.01 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_sim/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cct_sim/project.pj
+------------------
+Subproject Operated
+------------------
+------------------
+Subproject Figured
+------------------
+scons: Build interrupted.
+Batchvorgang abbrechen (J/N)? 

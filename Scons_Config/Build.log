@@ -1,0 +1,174 @@
+DEBUG:root:1395142206.35
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr/project.pj
+DEBUG:root:1395142206.65
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_mo/project.pj
+DEBUG:root:1395142206.95
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_wrp/project.pj
+DEBUG:root:1395142207.37
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_sim/project.pj
+DEBUG:root:1395142208.02
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa/project.pj
+DEBUG:root:1395142208.25
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_mo/project.pj
+DEBUG:root:1395142208.48
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_wrp/project.pj
+DEBUG:root:1395142208.69
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_sim/project.pj
+DEBUG:root:1395142209.02
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr/project.pj
+DEBUG:root:1395142209.32
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_mo/project.pj
+DEBUG:root:1395142209.63
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_wrp/project.pj
+DEBUG:root:1395142209.92
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_sim/project.pj
+DEBUG:root:1395142210.23
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa/project.pj
+DEBUG:root:1395142210.44
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_mo/project.pj
+DEBUG:root:1395142210.66
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_wrp/project.pj
+DEBUG:root:1395142210.89
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_sim/project.pj
+DEBUG:root:1395142211.21
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr/project.pj
+DEBUG:root:1395142211.49
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_mo/project.pj
+DEBUG:root:1395142211.78
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_wrp/project.pj
+DEBUG:root:1395142212.25
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_sim/project.pj
+DEBUG:root:1395142212.46
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa/project.pj
+DEBUG:root:1395142212.67
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa_mo/project.pj
+DEBUG:root:1395142212.9
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa_wrp/project.pj
+DEBUG:root:1395142213.1
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa_sim/project.pj
+DEBUG:root:1395142213.37
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//sr/project.pj
+DEBUG:root:1395142213.62
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//sr_mo/project.pj
+DEBUG:root:1395142213.88
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//sr_wrp/project.pj
+DEBUG:root:1395142214.13
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//sr_sim/project.pj
+DEBUG:root:1395142214.32
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//tsa/project.pj
+DEBUG:root:1395142214.51
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --label=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo//tsa_mo/project.pj
+DEBUG:root:1395142335.96
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr/project.pj
+DEBUG:root:1395142336.22
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_mo/project.pj
+DEBUG:root:1395142336.47
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_wrp/project.pj
+DEBUG:root:1395142336.74
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_sim/project.pj
+DEBUG:root:1395142336.95
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa/project.pj
+DEBUG:root:1395142337.14
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_mo/project.pj
+DEBUG:root:1395142337.33
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_wrp/project.pj
+DEBUG:root:1395142337.61
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_sim/project.pj
+DEBUG:root:1395142337.88
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectlabel=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr/project.pj
+DEBUG:root:1395144344.94
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr/project.pj
+DEBUG:root:1395144345.38
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_mo/project.pj
+DEBUG:root:1395144345.8
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_wrp/project.pj
+DEBUG:root:1395144346.21
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//sr_sim/project.pj
+DEBUG:root:1395144346.57
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa/project.pj
+DEBUG:root:1395144346.91
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_mo/project.pj
+DEBUG:root:1395144347.25
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_wrp/project.pj
+DEBUG:root:1395144347.56
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo//tsa_sim/project.pj
+DEBUG:root:1395144348.01
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr/project.pj
+DEBUG:root:1395144348.43
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_mo/project.pj
+DEBUG:root:1395144349.24
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_wrp/project.pj
+DEBUG:root:1395144349.72
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//sr_sim/project.pj
+DEBUG:root:1395144350.11
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa/project.pj
+DEBUG:root:1395144350.37
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_mo/project.pj
+DEBUG:root:1395144350.65
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_wrp/project.pj
+DEBUG:root:1395144350.95
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo//tsa_sim/project.pj
+DEBUG:root:1395144351.85
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr/project.pj
+DEBUG:root:1395144352.21
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_mo/project.pj
+DEBUG:root:1395144352.72
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_wrp/project.pj
+DEBUG:root:1395144353.15
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//sr_sim/project.pj
+DEBUG:root:1395144353.45
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa/project.pj
+DEBUG:root:1395144353.72
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo//tsa_mo/project.pj
+DEBUG:root:1395144709.43
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/sr/project.pj
+DEBUG:root:1395144712.49
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/tsa/project.pj
+DEBUG:root:1395144716.22
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/sr_sim/project.pj
+DEBUG:root:1395144718.8
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/tsa_sim/project.pj
+DEBUG:root:1395144720.61
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/sr/project.pj
+DEBUG:root:1395144723.35
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/tsa/project.pj
+DEBUG:root:1395144727.57
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/tsa/project.pj
+DEBUG:root:1395144730.03
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr/project.pj
+DEBUG:root:1395144737.18
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/sr/project.pj
+DEBUG:root:1395144739.89
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/tsa/project.pj
+DEBUG:root:1395144742.28
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/sr/project.pj
+DEBUG:root:1395144744.99
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/tsa/project.pj
+DEBUG:root:1395144748.8
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/tsa/project.pj
+DEBUG:root:1395144751.63
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/sr/project.pj
+DEBUG:root:1395144754.34
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/sr_sim/project.pj
+DEBUG:root:1395144757.11
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/tsa_sim/project.pj
+DEBUG:root:1395144758.67
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/sr/project.pj
+DEBUG:root:1395144775.15
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_RTE_02.02.04 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/sr/project.pj
+DEBUG:root:1395144777.89
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/tsa/project.pj
+DEBUG:root:1395144779.47
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_RTE_01.06.01 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/00_CodeGen/algo/tsa/project.pj
+DEBUG:root:1395144782.48
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/sr/project.pj
+DEBUG:root:1395144785.78
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/tsa/project.pj
+DEBUG:root:1395144788.1
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_SR_10.50.19_INT-7 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/sr/project.pj
+DEBUG:root:1395144790.88
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/tsa/project.pj
+DEBUG:root:1395144792.66
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_05.08.04_INT-1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/tsa_wrp/project.pj
+DEBUG:root:1395144794.0
+DEBUG:root:si configuresubproject  --type=build --cpid=209686:2 --subprojectRevision=AL_TSA_WRP_02.22.02_VisUpdate --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/project.pj --devpath=MFC4T0_B2_01.02 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/tsa_wrp/project.pj

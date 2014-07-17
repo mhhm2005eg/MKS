@@ -1,0 +1,5 @@
+component_name="gb" 
+algo_name="scb"         
+mono_algo_name="cb"         
+stereo_algo_name="scb"         
+cp_rls_mts="0"         

@@ -1,0 +1,165 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+
+from os.path import basename
+
+
+MFC4T0ProjectList = [\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/aldw_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/cb_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/cipp_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/cml/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/ecm/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/ecm_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/em/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/fct/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/fsd/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/hla/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/hla_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/ld_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/memo/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/ofc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/ped/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/sr_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/tsa/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/tsa_wrp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/vcl/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/vdy/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/vodca/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/fct/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/pfc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/SimV3ComponentGen2/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/bios/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/compiler/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/ndk/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/pdk/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/unzip_tools/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/xdctools/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/cipp_evm_hil/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/externals/sim_extensions/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/externals/tinyxml/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/fct_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/hla/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/pc_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/pfc_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/sr_sim_rte/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/tsa/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/04_Build/algo/em_mo/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/04_Build/algo/emo_mo/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/04_Build/algo/fct_mo/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/fct/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/cfg/algo/pfc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/aldw_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/cct/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/ecm/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/fct_mo/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/fct_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/ld_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/ped/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/dll/algo/pfc_sim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/cct/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/include/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vodca/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/tsa/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/tsa/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/aldw/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/sdl/algo/pc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/M11/04_Engineering/01_Source_Code/algo/00_Custom/fct/dim/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/M11/04_Engineering/01_Source_Code/algo/00_Custom/fct/frame/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/M11/04_Engineering/01_Source_Code/algo/00_Custom/fct/frame_veh/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/M11/04_Engineering/01_Source_Code/algo/00_Custom/fct/head/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/M11/04_Engineering/01_Source_Code/algo/00_Custom/sw_support/lka/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/cd/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/cp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/emp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/fip/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/frame/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/frame_sen/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/si/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/00_Custom/fct/spm/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/cd/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/cp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/emp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/fip/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/frame/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/frame_sen/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/si/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/fct/spm/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S14/04_Engineering/01_Source_Code/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S16/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/S16/04_Engineering/05_Deliverables/lib/ti_arp32/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/pfc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/ofc/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/02_Development_Tools/ti_tools/ndk_2_21_01_38/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/externals/sim_extensions/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/externals/tinyxml/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/cipp/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/gb/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/hla/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/ld/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vcl/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo/vodca/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/tsa/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/sr/project.pj",\
+"/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/tsa/project.pj",\
+]
+
+#si configuresubproject   --cpid=209686:2 --type=build --subprojectRevision=:head -Y -P /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/project.pj --devpath=MFC4T0 /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom/aldw_wrp/project.pj
+
+
+ProjectList= MFC4T0ProjectList
+RefCommand = "si configuresubproject  --cpid=203064:1 --type=build --subprojectRevision=:head "
+
+
+DevPath="MFC4T0"
+def ConfigHeadList():
+	for Proj in ProjectList:
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		Common.Tell (Proj)
+		ProjectName1=os.path.dirname(Proj)
+		ProjectName2=os.path.dirname(ProjectName1)
+		ProjectName = ProjectName2+"/project.pj"
+		Common.Tell (ProjectName)
+		Command= RefCommand +"  -P "+ ProjectName+ " --devpath="+DevPath + " "+Proj
+		subprocess.call(Command, shell=True)
+		Common.Tell(Command)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Configured")
+		Common.Tell ("------------------")
+
+def main():
+	ConfigHeadList()
+	
+	
+	
+main()

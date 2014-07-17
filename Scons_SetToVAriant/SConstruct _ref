@@ -1,0 +1,122 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+
+from os.path import basename
+
+
+Env = Environment()
+FileList=['HelloWorld.c', 'Hello.c' ]
+ObjectList=[]
+
+ExtensionsToBuild='*.c'
+#FilesToBuild=Glob( './Src/' +ExtensionsToBuild) # Return file objects
+FilesToBuild=[]
+
+#Program(OutFile, FileList) # Produce .exe file
+
+#Env.CCFLAGS.append('-DHELLO') #Otions for the compiler
+#-------------------------------------------------------------------
+# H files Dirs
+#-------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------
+# Lib files Dirs
+#-------------------------------------------------------------------
+#BatFiles=Common.Getfiles(["./../../../../../04_Engineering/03_Workspace/algo"],[],[], '*.sln')
+
+#scons 2>&1 | tee build.log
+
+SearchPath1="./../../../../../04_Engineering/03_Workspace/algo"
+SearchPath=os.path.abspath(SearchPath1)
+# Common.Tell(SearchPath1)
+# Common.Tell(SearchPath)
+BatFiles=Common.Getfiles([SearchPath],["D:/Sandboxs/SMFC4B0_04.01.00/06_Algorithm/05_Testing/05_Test_Environment/algo/IntegrationTest/Scons"],[], '*.bat')
+ProjFiles=Common.Getfiles([SearchPath],["D:/Sandboxs/SMFC4B0_04.01.00/06_Algorithm/05_Testing/05_Test_Environment/algo/IntegrationTest/Scons"],[], '*.vcproj')
+SolutionFiles=Common.GetSubfiles([SearchPath],["D:/Sandboxs/SMFC4B0_04.01.00/06_Algorithm/05_Testing/05_Test_Environment/algo/IntegrationTest/Scons"],[], '*.sln')
+SCONSFILES=[]#Common.Getfiles([SearchPath],[],[], '*.vcproj')
+for BatFile in BatFiles:
+	if "scons.bat" in BatFile :
+		SCONSFILES.append(BatFile)
+		Common.Tell(BatFile)
+Common.Tell(SolutionFiles)
+
+SCONSFILESLen = len(SCONSFILES)
+
+#opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+
+if (sys.argv[1] == 'scons') or (len(sys.argv) == 1):
+	if not (len(sys.argv) == 2):
+		if sys.argv[2] == 'all':
+			Index = 0
+			for BatFile in BatFiles:
+				
+				if "scons.bat" in BatFile :
+					Index= Index + 1
+					#subprocess.call(BatFile, shell=True)
+					print("----------Cleaning---------------")
+					print(BatFile+"  "+sys.argv[2])
+					print("----------------------------------")
+					#subprocess.Popen(BatFile, shell=True)
+					x = subprocess.call(BatFile +" -c", shell=True)
+					#p = subprocess.Popen(r'start cmd /c ' + '/k "title MyWindow" ' +  BatFile + " -c", shell=True)
+					#ComponentName = os.path.dirname(BatFile)
+					#ACtion="Cleaning"
+					#p = subprocess.Popen(r'start step.bat  ' + ComponentName +" "+ACtion+" "+BatFile+" "+str(Index)+" "+str(SCONSFILESLen) , shell=True)
+					#p.TITLE  = BatFile
+					#p.wait()
+					 
+					#stdout, stderr = p.communicate()
+					print("----------------------------------")
+					print("-------END CLEANING --------------")
+				elif "build-all.bat" in BatFile:
+					#subprocess.call(BatFile, shell=True)
+					Common.Tell(BatFile)
+				elif "Test.bat" in BatFile:
+					subprocess.Popen(BatFile, shell=True)
+					#stdout, stderr = p.communicate()
+					#Common.Tell(BatFile)
+	Index = 0		
+	for BatFile in BatFiles:
+		if "scons.bat" in BatFile :
+			Index= Index + 1
+			#subprocess.call(BatFile, shell=True)
+			print("----------Building---------------")
+			print(BatFile)
+			print("----------------------------------")
+			#subprocess.Popen(BatFile, shell=True)
+			#x = subprocess.call(BatFile, shell=True)
+			#p = subprocess.Popen(r'start cmd /c ' + BatFile, shell=True,stdin = subprocess.PIPE)
+			#p.stdin.write('title NOOOOOOOOOOOOOO')
+			ComponentName = os.path.basename(os.path.dirname(BatFile))
+			ACtion="Building"
+			p = subprocess.Popen(r'start step.bat  ' + ComponentName +" "+ACtion+" "+BatFile+" "+str(Index)+" "+str(SCONSFILESLen) , shell=True)
+			p.wait()
+			#stdout, stderr = p.communicate()
+			print("----------------------------------")
+			print("----------END BUILD---------------")
+		elif "build-all.bat" in BatFile:
+			#subprocess.call(BatFile, shell=True)
+			Common.Tell(BatFile)
+		elif "Test.bat" in BatFile:
+			subprocess.Popen(BatFile, shell=True)
+			#stdout, stderr = p.communicate()
+			#Common.Tell(BatFile)
+if 0:			
+	if sys.argv[1] == 'pj' and (len(sys.argv) == 1):
+		for ProjFile in ProjFiles:
+			subprocess.call('C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319/msbuild.exe '+ ProjFile, shell=True)	
+			print(ProjFile)
+
+if (sys.argv[1] == 'sln') or (len(sys.argv) == 1):
+	for SolutionFile in SolutionFiles:
+		print("----------------------------------------------------------------")
+		print("----------Building---------------")
+		print(SolutionFile)
+		subprocess.call('C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319/msbuild.exe '+ SolutionFile, shell=True)	
+		
+		print("----------------------------------------------------------------")

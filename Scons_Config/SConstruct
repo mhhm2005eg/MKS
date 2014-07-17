@@ -1,0 +1,334 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+
+from os.path import basename
+
+#######
+# Configurations for SRLCam4T0_R2.0.0_INT1
+#######
+SRLCam4T0_R2_0_0_INT1_SRL=["AL_SRL_SRLCAM4T0_04.10.00_INT-3"]
+SRLCam4T0_R2_0_0_INT1_CML=["AL_CML_01.05.00_INT-3"]
+SRLCam4T0_R2_0_0_INT1_HLA=["AL_HLA_05.10.06.10_INT-1","AL_HLA_MFC400_INTERFACE_I330"]
+SRLCam4T0_R2_0_0_INT1_SR=["AL_SR_10.50.19_INT-7","AL_SR_WRP_04.00.11-INT10_SimUpdate","AL_SR_SWSUP_00.01.01","AL_SR_RTE_02.02.04"]
+SRLCam4T0_R2_0_0_INT1_TSA=["AL_TSA_05.08.04_INT-1","AL_TSA_WRP_02.22.02_VisUpdate","AL_TSA_RTE_01.06.01"]
+SRLCam4T0_R2_0_0_INT1_LD=["AL_LD_05.05.16_SRLCAM_INT-1","AL_LD_RTE_I330_InterfaceFreeze"]
+SRLCam4T0_R2_0_0_INT1_CB=["AL_CB_03.05.07_INT3","AL_CB_MFC400_03.05.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_ECM=["AL_ECM_MFC4T0_05.00.01_INT-11","ECM_MFC4T0_05.00.01_INTERFACE_INT-01"]
+SRLCam4T0_R2_0_0_INT1_CIPP=["AL_CIPP_03.00.04_INT-1_SIM_ONLY_GIA","AL_CIPP_MFC400_02.05.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_EMO=["AL_EMO_01.21.01_MEMO_CLASSIC_INT-6","AL_EMO_MFC400_01.21.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_VDY=["AL_VDY_MFC400_03.07.00_INT-1","AL_VDY_SRLCAM4T0_02.00.00_INT-1","AL_VDY_MFC400_03.07.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_FCT=["AL_FCT_SRLCam4T0_02.10.00_INT-5","AL_FCT_MFC400_01.04.00_INTERFACE_INT-4"]
+SRLCam4T0_R2_0_0_INT1_EM=["AL_EM_SRLCAM_01.06.00_R2.0_INT-6","AL_EM_MFC400_I330_INT-3"]
+SRLCam4T0_R2_0_0_INT1_VCL=["AL_VCL_01.05.04_R2.0_INT-3","AL_VCL_01.05.00_I330_INTERFACE_INT-0"]
+SRLCam4T0_R2_0_0_INT1_VODCA=["AL_VODCA_RUSSIANSTANDARD_02.01.01_INT-2","AL_VODCA_BAIKAL_MFC400_01.04.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_PFC=["AL_PFC_04.03.02_R2.0_INT-2","AL_PFC_04.02_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_CCT=["AL_CCT_MFC400_05.07.00_INT-5"]
+SRLCam4T0_R2_0_0_INT1_GS=["AL_GS_03.03.00_INT-12"]
+SRLCam4T0_R2_0_0_INT1_ASF=["AL_ASF_I310_10_INT-1"]
+SRLCam4T0_R2_0_0_INT1_FEX=["AL_FEX_MFC400_01.02.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_FSD=["AL_FSD_MFC400_01.03.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_GEN=["AL_GEN_01.04.01_I320_INT-1"]
+SRLCam4T0_R2_0_0_INT1_PED=["AL_PED_05.08.04_INT-0_gia","AL_PED_MFC400_05.04.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_SAC=["AL_SAC_MFC400_05.00.01_INTERFACE_INT-0"]
+SRLCam4T0_R2_0_0_INT1_SIB=["AL_SIB_MFC400_01.04.00_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_PC=["AL_PC_01.04.01_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_PV=["AL_PV_I320_INTERFACE_INT-4"]
+SRLCam4T0_R2_0_0_INT1_PFC=["AL_PFC_04.02_INTERFACE_INT-1"]
+SRLCam4T0_R2_0_0_INT1_ETK=["AL_ETK_RTA_01.00.07"]
+
+
+RepositoryNames = {\
+'acc':'ACC_AdaptiveCruiseControl',\
+'adem':'ADEM_ADASEmergencyManagement',\
+'aln':'ALN_Alignment',\
+'asf':'ASF_AlgoSubsystemFPGA',\
+'bsd':'BSD_BlindSpotDetection',\
+'canvdy':'CanVdy_Can2VdyConverter',\
+'cb':'CB_CameraBlockage',\
+'gb':'CB_CameraBlockage',\
+'ccal':'CCAL_CameraCalibration',\
+'cct':'CCT_CommonCameraToolbox',\
+'cd':'CD_CollisionDetection',\
+'cf':'CF_CommonFPGA',\
+'cipp':'CIPP_CommonImagePreProcessing',\
+'cml':'CML_CommonMathLibrary',\
+'cod':'COD_CameraObjectDetection',\
+'crls':'CRLS_CameraRainLightSensor',\
+'crt':'CRT_CommonRadarToolbox',\
+'ctk':'CTK_CToolKit',\
+'datcon':'DatCon_AdtfFileReader',\
+'ecm':'ECM_EOLCalibrationMono',\
+'emo':'EMO_EgoMotion',\
+'memo':'EMO_EgoMotion',\
+'semo':'EMO_EgoMotion',\
+'em':'EM_EnvironmentModel',\
+'eo':'EO_EnvironmentObservation',\
+'etk':'ETK_EngineeringToolKit',\
+'fb':'FB_FPGABox',\
+'fca':'FCA_ForwardCollisionAlert',\
+'fct':'FCT_Function',\
+'fex':'FEX_FpgaExpert',\
+'fpga':'FPGA_FieldProgrammableGateArray',\
+'fpga':'FPGA_MFC400FieldProgGateArray',\
+'fsd':'FSD_FreeSpaceDetection',\
+'gen':'GEN_GeneralObjectDetection',\
+'gs':'GS_GlobalScheduler',\
+'head':'HEAD_HypothesisEvaluationAndDecision',\
+'hla':'HLA_HeadLightAssist',\
+'hvf':'HVF_HarvesterFPGA',\
+'kcm':'KCM_KinematicControlModule',\
+'lca':'LCA_LaneChangeAssistant',\
+'ld':'LD_LaneDetection',\
+'lka':'LKA_LaneKeepingAssist',\
+'lr':'LR_LaneRecognition',\
+'map':'MAP_MapDataProvider',\
+'ofcf':'OFCF_OpticalFlowComputationFPGA',\
+'ofc':'OFC_OpticalFlowComputation',\
+'pfc':'OFC_OpticalFlowComputation',\
+'ot':'OT_ObjectTracking',\
+'pc':'PC_PatchCorrelator',\
+'pedf':'PEDF_PedestrianDetectionFPGA',\
+'ped':'PED_PedestrianRecognition',\
+'pv':'PV_PreView',\
+'rcta':'RCTA_RearCrossingTrafficAlert',\
+'rds':'RDS_RadarRawDataSimulator',\
+'rhc':'RHC_RadarHardwareControl',\
+'rsp':'RSP_RawSignalProcessing',\
+'sac':'SAC_StereoAutoCalibration',\
+'sct':'SCT_StereoObjectClusteringAndTracking',\
+'sdc':'SDC_StereoDisparityComputation',\
+'sfod':'SFOD_StereoFastObjectDetection',\
+'sib':'SIB_StereoImageBase',\
+'simra':'SimRa_RadarSimulationEnvironment',\
+'sim':'SIM_SimulationTool',\
+'sir':'SIR_StereoImageRectification',\
+'si':'SI_SituationInterpretation',\
+'sle':'SLE_StereoLaneExtension',\
+'spod':'SPOD_StereoPreciseObjectDetection',\
+'spt':'SPT_SignalProcessingToolBox',\
+'srl':'SRL_ShortRangeLidar',\
+'sr':'SR_SignRecognition',\
+'stk':'STK_ScriptingToolKit',\
+'stp':'STP_SharedToolProjects',\
+'tsa':'TSA_TrafficSignAssist',\
+'vcl':'VCL_VehicleDetection',\
+'vdy':'VDY_VehicleDynamics',\
+'vl':'VL_VerifiedLane',\
+'vodca':'VODCA_VisualObjectDetectionandClassificationAlgorithms',\
+'rta':'ETK_EngineeringToolKit/04_Engineering/RTA_RealTimeAnalysis',\
+}
+
+MFC4T0_R1_2_COMPONENT_LIST = [\
+'sr',\
+'tsa',\
+'vdy',\
+'cml',\
+'ld',\
+'hla',\
+'ecm',\
+'cb',\
+'emo',\
+'em',\
+'cipp',\
+'vcl',\
+'fex',\
+'ofc',\
+'ped',\
+'sac',\
+'pc',\
+'fct',\
+'fpga',\
+'asf',\
+'fb',\
+'cct',\
+'vodca',\
+'gs',\
+]
+
+
+TEMP_COMPONENT_LIST = [\
+'sr',\
+'tsa',\
+]
+CheckPointOfCMP={\
+"srl": SRLCam4T0_R2_0_0_INT1_SRL,\
+"cml": SRLCam4T0_R2_0_0_INT1_CML,\
+"hla":SRLCam4T0_R2_0_0_INT1_HLA,\
+"sr":SRLCam4T0_R2_0_0_INT1_SR,\
+"tsa":SRLCam4T0_R2_0_0_INT1_TSA,\
+"ld":SRLCam4T0_R2_0_0_INT1_LD,\
+"cb":SRLCam4T0_R2_0_0_INT1_CB,\
+"ecm":SRLCam4T0_R2_0_0_INT1_ECM,\
+"cipp":SRLCam4T0_R2_0_0_INT1_CIPP,\
+"emo":SRLCam4T0_R2_0_0_INT1_EMO,\
+"vdy":SRLCam4T0_R2_0_0_INT1_VDY,\
+"fct":SRLCam4T0_R2_0_0_INT1_FCT,\
+"em":SRLCam4T0_R2_0_0_INT1_EM,\
+"vcl":SRLCam4T0_R2_0_0_INT1_VCL,\
+"vodca":SRLCam4T0_R2_0_0_INT1_VODCA,\
+"pfc":SRLCam4T0_R2_0_0_INT1_PFC,\
+"cct":SRLCam4T0_R2_0_0_INT1_CCT,\
+"gs":SRLCam4T0_R2_0_0_INT1_GS,\
+"asf":SRLCam4T0_R2_0_0_INT1_ASF,\
+"fex":SRLCam4T0_R2_0_0_INT1_FEX,\
+"fsd":SRLCam4T0_R2_0_0_INT1_FSD,\
+"gen":SRLCam4T0_R2_0_0_INT1_GEN,\
+"ped":SRLCam4T0_R2_0_0_INT1_PED,\
+"sac":SRLCam4T0_R2_0_0_INT1_SAC,\
+"sib":SRLCam4T0_R2_0_0_INT1_SIB,\
+"pc":SRLCam4T0_R2_0_0_INT1_PC,\
+"pv":SRLCam4T0_R2_0_0_INT1_PV,\
+"pfc":SRLCam4T0_R2_0_0_INT1_PFC,\
+"etk":SRLCam4T0_R2_0_0_INT1_ETK\
+}
+CompanentNames = TEMP_COMPONENT_LIST
+
+
+ExtendedCompanentNames = []
+ExtendedRepositoryNames = {}
+ExtendedLabelsOfCMP = {}
+for Comp in CompanentNames:
+	ExtendedCompanentNames.append(Comp)
+	ExtendedRepositoryNames[Comp] = RepositoryNames[Comp]
+	ExtendedLabelsOfCMP[Comp] = CheckPointOfCMP[Comp]
+	ExtendedCompanentNames.append(Comp+"_mo")
+	ExtendedRepositoryNames[Comp+"_mo"] = RepositoryNames[Comp]
+	ExtendedLabelsOfCMP[Comp+"_mo"] = CheckPointOfCMP[Comp]
+	ExtendedCompanentNames.append(Comp+"_wrp")
+	ExtendedRepositoryNames[Comp+"_wrp"] = RepositoryNames[Comp]
+	ExtendedLabelsOfCMP[Comp+"_wrp"] = CheckPointOfCMP[Comp]
+	ExtendedCompanentNames.append(Comp+"_sim")
+	ExtendedRepositoryNames[Comp+"_sim"] = RepositoryNames[Comp]
+	ExtendedLabelsOfCMP[Comp+"_sim"] = CheckPointOfCMP[Comp]
+
+BasicDestinationSubProjectList = [\
+"/04_Engineering/05_Deliverables/cfg/algo/",\
+"/04_Engineering/05_Deliverables/dll/algo/",\
+"/04_Engineering/05_Deliverables/include/algo/",\
+"/04_Engineering/05_Deliverables/sdl/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_arp32/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_c674x/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/",\
+"/04_Engineering/05_Deliverables/sdl/algo/",\
+"/04_Engineering/03_Workspace/algo/",\
+"/04_Engineering/00_CodeGen/algo/",\
+"/04_Engineering/01_Source_Code/algo/",\
+"/04_Engineering/01_Source_Code/algo/00_Custom/",\
+]
+
+ProjectList= Config.MFC4T0ProjectList
+
+DevPath="MFC4T0_B2_01.02"
+ChangePackageList={"MFC400":"209686:2","SRLCam":"203064:1"}
+
+#####################################################
+ListOfProjects = ["MFC400", "SRLCam"]
+PrjOfDevPath = {"MFC4T0_B1_01.01":"MFC400","MFC4T0_B2_01.02":"MFC400","SRLCam4T0_R2.0.0_INT1":"SRLCam","SRLCam4T0_2.1":"SRLCam","SRLCam4T0_2.2":"SRLCam",}
+MainProjectName=PrjOfDevPath[DevPath]
+ChangePackage=ChangePackageList[MainProjectName]
+
+#####################################################
+
+def ConfigHeadList():
+	RefCommand = "si configuresubproject  --cpid=203064:1 --type=build --subprojectRevision=:head "
+	for Proj in ProjectList:
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		Common.Tell (Proj)
+		ProjectName1=os.path.dirname(Proj)
+		ProjectName2=os.path.dirname(ProjectName1)
+		ProjectName = ProjectName2+"/project.pj"
+		Common.Tell (ProjectName)
+		Command= RefCommand +"  -P "+ ProjectName+ " --devpath="+DevPath + " "+Proj
+		subprocess.call(Command, shell=True)
+		Common.Tell(Command)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Configured")
+		Common.Tell ("------------------")
+
+def GetRevisionForLabel(RootProject, SharedProject, Label):
+        """
+        GetRevisionForLabel( SharedProject, Label)
+
+        Description: Get the revision corresponding to a label
+
+        Parameter: -SharedProject the path from where the shared project is shared
+                   -Label serach the revision to this label
+
+        return 0 if label could not be found in this shared project
+        """
+        ret_value = "default"
+        cmdline_info='si viewprojecthistory --batch  --fields=labels,revision --rfilter=labeled --project='+SharedProject
+#        print SharedProject
+        try:
+            proc=subprocess.Popen(cmdline_info, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            stdout_str, stderr_str = proc.communicate()
+            stdout_str_lines = stdout_str.splitlines()
+        except OSError,ValueError:
+            print formatExceptionInfo()
+#        print Label
+        for line in stdout_str_lines:
+			#print line
+			if (len(line) > 1):
+				argu = line.split()
+				#print (argu)
+				if (len(argu) > 2):
+					argu[1] = argu[len(argu)-1]
+					argu[0] = line.replace(argu[1],"")
+					argu[0] = argu[0].rstrip()
+					argu[0] = argu[0].replace("\n","")
+	#                    print argu[0]
+					if (len(argu) > 1):
+	#                    print argu[0]
+	#                    print argu[1]
+
+						# check if unicode
+						try:
+							argu[0].decode('ascii')
+						except UnicodeDecodeError:
+							Common.Tell("Decoding issue")
+				else:
+					# an ascii-encoded unicode string
+					#print(argu[0],1)
+					if (argu[0] == Label):
+						ret_value = argu[1]
+						#print(cmdline_info)
+						break
+#                        print "Return value " + ret_value
+        return ret_value
+
+def ConfigCompList():
+	for folder in BasicDestinationSubProjectList:
+		for CMP in ExtendedCompanentNames	:
+			#/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/05_Deliverables/lib/ti_c674x/algo/project.pj
+			ProjectToBeConfigured="/nfs/projekte1/PROJECTS/"+PrjOfDevPath[DevPath]+"/06_Algorithm"+folder+CMP+"/project.pj"
+			RootProjectToBeConfigured="/nfs/projekte1/PROJECTS/"+PrjOfDevPath[DevPath]+"/06_Algorithm"+folder+"project.pj"
+			LabelList = ExtendedLabelsOfCMP[CMP]
+			for Label in LabelList:
+				CP = GetRevisionForLabel(RootProjectToBeConfigured, ProjectToBeConfigured, Label)
+				if CP != "default":
+					print()
+					print(" ---- Start Config-----")
+					print("Subproject: "+ProjectToBeConfigured)
+					print("Label: "+Label)
+					print("Checkpoint: "+CP)
+					Command="si configuresubproject  --type=build --cpid="+ChangePackage+" --subprojectRevision="+CP+" --project="+RootProjectToBeConfigured +" --devpath="+DevPath +" "+ProjectToBeConfigured
+					ret = subprocess.call(Command, shell=True)
+					print(Command)
+				#ret=1
+				#if ret == 0:
+					#Common.Tell(Command)
+	
+	
+def main():
+	ConfigCompList()
+	
+	
+	
+main()

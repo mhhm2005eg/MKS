@@ -1,0 +1,513 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+import sys
+
+from os.path import basename
+
+#sys.stdout = open('Build.log', 'w')
+
+INCLUDE_CORES = 0
+
+StereoExecutiveComponentList = [\
+"sib",\
+"semo",\
+"sac",\
+"gen",\
+"pv",\
+"scb",\
+"fsd"\
+]
+
+
+ComponentList = [\
+'ecm',\
+'em',\
+'ld',\
+'pc',\
+'ped',\
+'vcl',\
+'sr',\
+'tsa',\
+'cct',\
+'gb',\
+'hla',\
+'pfc',\
+'memo',\
+'semo',\
+'vodca',\
+'pv',\
+]
+
+SRLCAM_R2_0_COMPONENT_LIST = [\
+'srl',\
+'cml',\
+'hla',\
+'sr',\
+'tsa',\
+'ld',\
+'gb',\
+'ecm',\
+'cipp',\
+'memo',\
+'vdy',\
+'fct',\
+'em',\
+'vcl',\
+'vodca',\
+'pfc',\
+'cct',\
+'gs',\
+'asf',\
+'ped',\
+]
+
+SRLCAM_R2_1_COMPONENT_LIST = [\
+'srl',\
+'cml',\
+'hla',\
+'sr',\
+'tsa',\
+'ld',\
+'cb',\
+'ecm',\
+'cipp',\
+'emo',\
+'vdy',\
+'fct',\
+#'em',\ 
+'vcl',\
+'vodca',\
+'pfc',\
+#'cct',\
+'gs',\
+'asf',\
+'ped',\
+]
+
+MFC4T0_R1_2_COMPONENT_LIST = [\
+'sr',\
+'tsa',\
+'vdy',\
+'cml',\
+'ld',\
+'hla',\
+'ecm',\
+'cb',\
+'emo',\
+'em',\
+'cipp',\
+'vcl',\
+'fex',\
+'ofc',\
+'ped',\
+'sac',\
+'pc',\
+'fct',\
+'fpga',\
+'asf',\
+'fb',\
+'cct',\
+'vodca',\
+'gs',\
+]
+CompanentNames_Temp = []
+
+CompanentNames = ComponentList
+
+
+
+VariantConfig = {\
+'cct': 'AL_CCT_MFC400',\
+'em': 'AL_EM_MFC400',\
+'fct': 'AL_FCT_MFC400',\
+'vdy': 'AL_VDY_MFC400',\
+'vcl': 'AL_VCL_MFC400',\
+}
+
+RepositoryNames = {\
+'acc':'ACC_AdaptiveCruiseControl',\
+'adem':'ADEM_ADASEmergencyManagement',\
+'aln':'ALN_Alignment',\
+'asf':'ASF_AlgoSubsystemFPGA',\
+'bsd':'BSD_BlindSpotDetection',\
+'canvdy':'CanVdy_Can2VdyConverter',\
+'cb':'CB_CameraBlockage',\
+'scb':'CB_CameraBlockage',\
+'gb':'CB_CameraBlockage',\
+'ccal':'CCAL_CameraCalibration',\
+'cct':'CCT_CommonCameraToolbox',\
+'cd':'CD_CollisionDetection',\
+'cf':'CF_CommonFPGA',\
+'cipp':'CIPP_CommonImagePreProcessing',\
+'cml':'CML_CommonMathLibrary',\
+'cod':'COD_CameraObjectDetection',\
+'crls':'CRLS_CameraRainLightSensor',\
+'crt':'CRT_CommonRadarToolbox',\
+'ctk':'CTK_CToolKit',\
+'datcon':'DatCon_AdtfFileReader',\
+'ecm':'ECM_EOLCalibrationMono',\
+'emo':'EMO_EgoMotion',\
+'memo':'EMO_EgoMotion',\
+'semo':'EMO_EgoMotion',\
+'em':'EM_EnvironmentModel',\
+'eo':'EO_EnvironmentObservation',\
+'etk':'ETK_EngineeringToolKit',\
+'fb':'FB_FPGABox',\
+'fca':'FCA_ForwardCollisionAlert',\
+'fct':'FCT_Function',\
+'fex':'FEX_FpgaExpert',\
+'fpga':'FPGA_FieldProgrammableGateArray',\
+'fpga':'FPGA_MFC400FieldProgGateArray',\
+'fsd':'FSD_FreeSpaceDetection',\
+'gen':'GEN_GeneralObjectDetection',\
+'gs':'GS_GlobalScheduler',\
+'head':'HEAD_HypothesisEvaluationAndDecision',\
+'hla':'HLA_HeadLightAssist',\
+'hvf':'HVF_HarvesterFPGA',\
+'kcm':'KCM_KinematicControlModule',\
+'lca':'LCA_LaneChangeAssistant',\
+'ld':'LD_LaneDetection',\
+'lka':'LKA_LaneKeepingAssist',\
+'lr':'LR_LaneRecognition',\
+'map':'MAP_MapDataProvider',\
+'ofcf':'OFCF_OpticalFlowComputationFPGA',\
+'ofc':'OFC_OpticalFlowComputation',\
+'pfc':'OFC_OpticalFlowComputation',\
+'ot':'OT_ObjectTracking',\
+'pc':'PC_PatchCorrelator',\
+'pedf':'PEDF_PedestrianDetectionFPGA',\
+'ped':'PED_PedestrianRecognition',\
+'pv':'PV_PreView',\
+'rcta':'RCTA_RearCrossingTrafficAlert',\
+'rds':'RDS_RadarRawDataSimulator',\
+'rhc':'RHC_RadarHardwareControl',\
+'rsp':'RSP_RawSignalProcessing',\
+'sac':'SAC_StereoAutoCalibration',\
+'sct':'SCT_StereoObjectClusteringAndTracking',\
+'sdc':'SDC_StereoDisparityComputation',\
+'sfod':'SFOD_StereoFastObjectDetection',\
+'sib':'SIB_StereoImageBase',\
+'simra':'SimRa_RadarSimulationEnvironment',\
+'sim':'SIM_SimulationTool',\
+'sir':'SIR_StereoImageRectification',\
+'si':'SI_SituationInterpretation',\
+'sle':'SLE_StereoLaneExtension',\
+'spod':'SPOD_StereoPreciseObjectDetection',\
+'spt':'SPT_SignalProcessingToolBox',\
+'srl':'SRL_ShortRangeLidar',\
+'sr':'SR_SignRecognition',\
+'stk':'STK_ScriptingToolKit',\
+'stp':'STP_SharedToolProjects',\
+'tsa':'TSA_TrafficSignAssist',\
+'vcl':'VCL_VehicleDetection',\
+'vdy':'VDY_VehicleDynamics',\
+'vl':'VL_VerifiedLane',\
+'vodca':'VODCA_VisualObjectDetectionandClassificationAlgorithms',\
+'rta':'ETK_EngineeringToolKit/04_Engineering/RTA_RealTimeAnalysis',\
+}
+
+DestinationNames = {\
+'acc':'acc',\
+'adem':'adem',\
+'aln':'aln',\
+'asf':'asf',\
+'bsd':'bsd',\
+'canvdy':'canvdy',\
+'cb':'cb',\
+'scb':'scb',\
+'gb':'cb',\
+'ccal':'ccal',\
+'cct':'cct',\
+'cd':'cd',\
+'cf':'cf',\
+'cipp':'cipp',\
+'cml':'cml',\
+'cod':'cod',\
+'crls':'crls',\
+'crt':'crt',\
+'ctk':'ctk',\
+'datcon':'datcon',\
+'ecm':'ecm',\
+'emo':'emo',\
+'memo':'memo',\
+'semo':'semo',\
+'em':'em',\
+'eo':'eo',\
+'etk':'etk',\
+'fb':'fb',\
+'fca':'fca',\
+'fct':'fct',\
+'fex':'fex',\
+'fpga':'fpga',\
+'fpga':'fpga',\
+'fsd':'fsd',\
+'gen':'gen',\
+'gs':'gs',\
+'head':'head',\
+'hla':'hla',\
+'hvf':'hvf',\
+'kcm':'kcm',\
+'lca':'lca',\
+'ld':'ld',\
+'lka':'lka',\
+'lr':'lr',\
+'map':'map',\
+'ofcf':'ofcf',\
+'ofc':'ofc',\
+'pfc':'pfc',\
+'ot':'ot',\
+'pc':'pc',\
+'pedf':'pedf',\
+'ped':'ped',\
+'pv':'pv',\
+'rcta':'rcta',\
+'rds':'rds',\
+'rhc':'rhc',\
+'rsp':'rsp',\
+'sac':'sac',\
+'sct':'sct',\
+'sdc':'sdc',\
+'sfod':'sfod',\
+'sib':'sib',\
+'simra':'simra',\
+'sim':'sim',\
+'sir':'sir',\
+'si':'si',\
+'sle':'sle',\
+'spod':'spod',\
+'spt':'spt',\
+'srl':'srl',\
+'sr':'sr',\
+'stk':'stk',\
+'stp':'stp',\
+'tsa':'tsa',\
+'vcl':'vcl',\
+'vdy':'vdy',\
+'vl':'vl',\
+'vodca':'vodca',\
+'rta':'rta',\
+}
+
+MainProjectName="MFC400"
+DestinationProjectType="Variant"
+
+if DestinationProjectType == "Variant":
+	DestinationDevPath="SMFC4B0_05.01.00"
+
+
+
+Test = 0
+
+
+
+
+
+
+
+DestinationProject = "/nfs/projekte1/PROJECTS/"+MainProjectName+"/"
+DestinationSubProject = "/04_Engineering/05_Deliverables/lib/ti_c674x/algo/"
+DestinationSubProject = "\\05_Testing\\05_Test_Environment\\algo\\modtests\\qac_tests\\"
+
+ChangePackageList={"MFC400":"227907:2","srlcam":"203064:1"}
+ChangePackage=ChangePackageList[MainProjectName]
+CoresList = ["M11","S11","S13","S14","S16"]
+
+if DestinationProjectType == "Variant":
+	DestenationProject = DestinationProject+"06_Algorithm"+DestinationSubProject+"project.pj --devpath=" + DestinationDevPath + " "
+else:
+	DestenationProject = DestinationProject+"06_Algorithm"+DestinationSubProject+"project.pj "
+
+
+SharedFolderVariantCommand = "si sharesubproject --cpid="+ChangePackage+ " "
+
+
+
+
+
+def ConfigVariantList():
+	VariantConfigAll = VariantConfig
+	ExecutiveComponentList = []
+
+	for Comp in CompanentNames:
+		ExecutiveComponentList.append(Comp)
+		ExecutiveComponentList.append(Comp+"_sim")
+		VariantConfigAll[Comp+"_sim"] = VariantConfig[Comp]
+		ExecutiveComponentList.append(Comp+"_mo")
+		VariantConfigAll[Comp+"_mo"] = VariantConfig[Comp]
+		ExecutiveComponentList.append(Comp+"_wrp")
+		VariantConfigAll[Comp+"_wrp"] = VariantConfig[Comp]
+
+
+ExtendedCompanentNames = []
+ExtendedRepositoryNames = {}
+for Comp in CompanentNames:
+	ExtendedCompanentNames.append(Comp)
+	ExtendedRepositoryNames[Comp] = RepositoryNames[Comp]
+	ExtendedCompanentNames.append(Comp+"_mo")
+	ExtendedRepositoryNames[Comp+"_mo"] = RepositoryNames[Comp]
+	ExtendedCompanentNames.append(Comp+"_wrp")
+	ExtendedRepositoryNames[Comp+"_wrp"] = RepositoryNames[Comp]
+	ExtendedCompanentNames.append(Comp+"_sim")
+	ExtendedRepositoryNames[Comp+"_sim"] = RepositoryNames[Comp]
+
+
+ExtendedDestinationNames = {}
+for Comp in CompanentNames:
+	ExtendedDestinationNames[Comp] = DestinationNames[Comp]
+	ExtendedDestinationNames[Comp+"_mo"] = DestinationNames[Comp]+"_mo"
+	ExtendedDestinationNames[Comp+"_wrp"] = DestinationNames[Comp]+"_wrp"
+	ExtendedDestinationNames[Comp+"_sim"] = DestinationNames[Comp]+"_sim"
+
+
+
+
+RefCommand=SharedFolderVariantCommand
+
+
+Def_BasicDestinationSubProjectList = [\
+"/04_Engineering/05_Deliverables/cfg/algo/",\
+"/04_Engineering/05_Deliverables/dll/algo/",\
+"/04_Engineering/05_Deliverables/include/algo/",\
+"/04_Engineering/05_Deliverables/sdl/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_arp32/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_c674x/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo/",\
+"/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo/",\
+"/04_Engineering/05_Deliverables/sdl/algo/",\
+"/04_Engineering/03_Workspace/algo/",\
+"/04_Engineering/00_CodeGen/algo/",\
+"/04_Engineering/01_Source_Code/algo/",\
+"/04_Engineering/01_Source_Code/algo/00_Custom/",\
+]
+QAC_BasicDestinationSubProjectList = [\
+"\\05_Testing\\05_Test_Environment\\algo\\modtests\\qac_tests\\",\
+"\\05_Testing\\05_Test_Environment\\algo\\modtests\\qacpp_tests\\"\
+]
+
+BasicDestinationSubProjectList =  QAC_BasicDestinationSubProjectList
+# Adding the Cores
+SourceSubProjectList = {}
+DestinationSubProjectList = []
+DestinationSubProjectList = Common.ListAppend(DestinationSubProjectList, BasicDestinationSubProjectList)
+
+
+for Subfolder in BasicDestinationSubProjectList:
+	SourceSubProjectList[Subfolder] = Subfolder
+	if INCLUDE_CORES == 1:
+		for Core1 in CoresList:
+			print("/"+Core1+Subfolder)
+			DestinationSubProjectList.append("/"+Core1+Subfolder)
+			SourceSubProjectList["/"+Core1+Subfolder] = Subfolder
+
+
+		
+
+DestenationProjectDic = {}
+for x in DestinationSubProjectList:
+	if DestinationProjectType == "Variant":
+		DestenationProjectDic[x] = DestinationProject+"06_Algorithm"+x+"project.pj --devpath " + DestinationDevPath + " "
+	else:
+		DestenationProjectDic[x] = DestinationProject+"06_Algorithm"+x+"project.pj  "
+	#Basic comonent's names and one destination folder
+def AddSharedSubProjects() :
+	CMPList = CompanentNames
+	for CMP in CMPList:
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		SourceProject="/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/"+RepositoryNames[CMP]+DestinationSubProject+"/"+CMP+"/project.pj --type=normal"
+		NewFolderPath=DestinationProject+"06_Algorithm"+DestinationSubProject+CMP+"/project.pj"
+		Command = RefCommand +  "--project="+ DestenationProject +"--sharedProject="+SourceProject +" "+ NewFolderPath
+		subprocess.call(Command, shell=True)
+		Common.Tell(Command)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject OPerated")
+		Common.Tell ("------------------")
+
+		#Extended component names but on one subfolder
+def AddExtendedSharedSubProjects() :
+	CMPList = ExtendedCompanentNames
+	for CMP in CMPList:
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		SourceProject="/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/"+ExtendedRepositoryNames[CMP]+DestinationSubProject+"/"+CMP+"/project.pj --type=normal"
+		NewFolderPath=DestinationProject+"06_Algorithm"+DestinationSubProject+ExtendedDestinationNames[CMP]+"/project.pj"
+		Command = RefCommand +  "--project="+ DestenationProject +"--sharedProject="+SourceProject +" "+ NewFolderPath
+		Ret = subprocess.call(Command,stderr=subprocess.STDOUT, shell=True)
+		Common.Tell(Command)
+		if Ret == 0:
+			Common.Tell ("Succeded")
+		if Ret != 0:
+			Common.Tell ("Failed")
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject OPerated")
+		Common.Tell ("------------------")
+
+		#Destination list subfolders but only the basic CMP names
+def AddSharedSubProjectsList() :
+	CMPList = CompanentNames
+	for Destinationpath in DestinationSubProjectList:
+		for CMP in CMPList:
+			Common.Tell ("------------------")
+			Common.Tell ("Subproject Figured")
+			Common.Tell ("------------------")
+			SourceProject="/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/"+RepositoryNames[CMP]+SourceSubProjectList[Destinationpath]+"/"+CMP+"/project.pj --type=normal"
+			NewFolderPath=DestinationProject+"06_Algorithm"+Destinationpath+CMP+"/project.pj"
+			Command = RefCommand +  "--project="+ DestenationProjectDic[Destinationpath] +"--sharedProject="+SourceProject +" "+ NewFolderPath
+			subprocess.call(Command, shell=True)
+			Common.Tell(Command)
+			Common.Tell ("------------------")
+			Common.Tell ("Subproject OPerated")
+			Common.Tell ("------------------")
+
+		#Destination list subfolders with extended CMP names
+def AddSharedSubProjectsListExtended() :
+	CMPList = ExtendedCompanentNames
+	for Destinationpath in DestinationSubProjectList:
+		for CMP in CMPList:
+
+			SourceProject="/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/"+ExtendedRepositoryNames[CMP]+SourceSubProjectList[Destinationpath]+CMP+"/project.pj --type=normal"
+			
+			NewFolderPath=DestinationProject+"06_Algorithm"+Destinationpath+ExtendedDestinationNames[CMP]+"/project.pj"
+			
+			if 0:
+				SourceProject_T="/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/"+ExtendedRepositoryNames[CMP]+SourceSubProjectList[Destinationpath]+CMP+"/project.pj "
+				Command1 =  "si projectinfo -P"+SourceProject_T
+				Ret1 = subprocess.call(Command1, shell=True)
+				if Ret1 != 0:
+					Common.Tell ("Source subproject does not exist: " + SourceProject_T)
+					continue
+					
+				
+				Command1 =  "si projectinfo -P"+NewFolderPath
+				Ret1 = subprocess.call(Command1, shell=True)
+				if Ret1 == 0:
+					Common.Tell ("Destination subproject already exists: "+NewFolderPath)
+					continue
+			Common.Tell ("------------------")
+			Common.Tell ("Subproject Figured")
+			Common.Tell ("------------------")
+			
+			Command = RefCommand +  "--project="+ DestenationProjectDic[Destinationpath] +"--sharedProject="+SourceProject +" "+ NewFolderPath
+			if Test == 0:
+				Ret = subprocess.call(Command, shell=True)
+				if Ret == 0:
+					Common.Tell ("Succeded")
+				if Ret != 0:
+					Common.Tell ("Failed")
+			Common.Tell(Command)
+			Common.Tell ("------------------")
+			Common.Tell ("Subproject Operated")
+			Common.Tell ("------------------")
+					
+def main():
+	AddSharedSubProjectsList()
+	
+	
+	
+main()

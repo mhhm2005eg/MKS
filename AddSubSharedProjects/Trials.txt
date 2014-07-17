@@ -1,0 +1,17 @@
+si sharesubproject --project=D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj
+
+
+si sharesubproject --cpid=209686:2 --subprojectDevelopmentPath=AL_CCT_MFC400  --sandbox=D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj  --type=normal
+
+si sharesubproject --cpid=209686:2  --sandbox=D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj  --type=normal
+
+si sharesubproject --cpid=209686:2  --sandbox=D:\Sandboxs\MFC4T0\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj  --type=normal
+
+si sharesubproject --cpid=209686:2  --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj  --type=normal
+
+
+si sharesubproject --cpid=209686:2  --project=/nfs/projekte1/PROJECTS/MFC400/PROJECT.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  D:\Sandboxs\MFC4T0\06_Algorithm\04_Engineering\03_Workspace\algo\cct\project.pj  --type=normal
+
+si sharesubproject --cpid=209686:2  --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/PROJECT.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox/04_Engineering/03_Workspace/algo/cct/project.pj  /nfs/projekte1/PROJECTS/MFC400/06_Algorithm/04_Engineering/03_Workspace/algo/cct/PROJECT.pj
+
+/nfs/projekte1/PROJECTS/PROJECTS.pj#MFC400#d=MFC4T0

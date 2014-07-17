@@ -1,0 +1,51 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+
+from os.path import basename
+
+
+Env = Environment()
+FileList=['HelloWorld.c', 'Hello.c' ]
+ObjectList=[]
+
+ExtensionsToBuild='*.c'
+#FilesToBuild=Glob( './Src/' +ExtensionsToBuild) # Return file objects
+FilesToBuild=[]
+
+#Program(OutFile, FileList) # Produce .exe file
+
+#Env.CCFLAGS.append('-DHELLO') #Otions for the compiler
+#-------------------------------------------------------------------
+# H files Dirs
+#-------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------
+# Lib files Dirs
+#-------------------------------------------------------------------
+#SlnFiles=Common.Getfiles(["./../../../../../04_Engineering"],[],[], '*.sln')
+SearchPath1="./../../../../../04_Engineering"
+SearchPath=os.path.abspath(SearchPath1)
+SlnFiles=Common.Getfiles([SearchPath],[],[], '*.sln')
+
+#for x in SlnFiles:
+	#print("--------------------------------------------------------")
+	#print(x, 'SlnFiles')
+	#print("--------------------------------------------------------")
+
+InputSolutions= Common.List2TXT(SlnFiles, ' ')
+
+InputSolutions = InputSolutions + ' '+"./Out.sln"
+
+print(InputSolutions)
+var = "/some/file/path/"
+pipe = subprocess.Popen(["wperl", "merge.pl "+InputSolutions, var], stdin=subprocess.PIPE)
+pipe.stdin.write(var)
+pipe.stdin.close()
+
+
+subprocess.call(["wperl", "merge.pl "+InputSolutions], shell=True)
+
+

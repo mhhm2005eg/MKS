@@ -1,0 +1,1 @@
+si viewsandbox --fields=indent, name, type, memberrev

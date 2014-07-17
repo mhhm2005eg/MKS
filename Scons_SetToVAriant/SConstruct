@@ -1,0 +1,180 @@
+import os
+import Config
+import Common
+import shlex, subprocess
+import sys, getopt
+import logging
+
+from os.path import basename
+
+
+StereoExecutiveComponentList = [\
+"sib",\
+"semo",\
+"sac",\
+"gen",\
+"pv",\
+"scb",\
+"fsd"\
+]
+
+
+ComponentList = [\
+"cct",\
+"fct",\
+"em",\
+"vdy",\
+"vcl",\
+"ped",\
+]
+
+CompanentNames = ComponentList
+
+VariantConfig = {\
+'cct': 'AL_CCT_MFC400',\
+'em': 'AL_EM_MFC400',\
+'fct': 'AL_FCT_SRLCam4T0_01.03.00_R20-INT',\
+'vdy': 'AL_VDY_MFC400',\
+'vcl': 'AL_VCL_MFC400',\
+'ped': "AL_PED_SRLCam4T0_R2.0.0",\
+}
+
+VariantConfigAll = VariantConfig
+ExecutiveComponentList = []
+
+for Comp in CompanentNames:
+	ExecutiveComponentList.append(Comp)
+	ExecutiveComponentList.append(Comp+"_sim")
+	VariantConfigAll[Comp+"_sim"] = VariantConfig[Comp]
+	ExecutiveComponentList.append(Comp+"_mo")
+	VariantConfigAll[Comp+"_mo"] = VariantConfig[Comp]
+	ExecutiveComponentList.append(Comp+"_wrp")
+	VariantConfigAll[Comp+"_wrp"] = VariantConfig[Comp]
+
+
+
+
+SandBox_MFC4T0_Trunk = "D:/Sandboxs/MFC4T0/"
+SandBox_SRLCAM4T0_Trunk = "D:/Sandboxs/SRLCam_4T0/"
+
+SandBox = SandBox_MFC4T0_Trunk
+
+ListOfPathes = [\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/cfg/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/dll/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/include/algo",\
+#SandBox + "06_Algorithm/04_Engineering/05_Deliverables/lib/pc/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/lib/ti_arp32/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/lib/ti_c674x/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a8/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/lib/ti_cortex_a15/algo",\
+SandBox + "06_Algorithm/04_Engineering/05_Deliverables/sdl/algo",\
+SandBox + "06_Algorithm/04_Engineering/03_Workspace/algo",\
+SandBox + "06_Algorithm/04_Engineering/00_CodeGen/algo",\
+SandBox + "06_Algorithm/04_Engineering/01_Source_Code/algo",\
+SandBox + "06_Algorithm/04_Engineering/01_Source_Code/algo/00_Custom",\
+]
+
+Subfolders = []
+for Mainfolder in ListOfPathes:
+	t = Common.getSubdirs(Mainfolder)
+	Common.ListAppend(Subfolders, t)
+
+
+
+RefNormalCommand = "si configuresubproject --type=normal --cpid=209686:2"
+
+RefVariantCommand = "si configuresubproject --type=variant --subprojectDevelopmentPath=MFC4T0 --cpid=209686:2"
+
+
+SharedFolderVariantCommand = "si configuresubproject --type=variant  --cpid=209686:2 --subprojectDevelopmentPath="
+
+
+RefCommand=RefNormalCommand
+
+def ConfigList() :
+	for FolderNameLoop in Subfolders:
+		#print (FolderNameLoop)
+		FolderName = os.path.basename(FolderNameLoop)
+		#print(FolderName)
+		for Component in ExecutiveComponentList:
+			if FolderName == Component:
+				Common.Tell ("------------------")
+				Common.Tell ("Subproject Figured")
+				Common.Tell ("------------------")
+				Common.Tell (FolderNameLoop)
+				ProjectName=FolderNameLoop+"/project.pj"
+				Common.Tell (ProjectName)
+				Command= RefCommand +"  "+ ProjectName
+				subprocess.call(Command, shell=True)
+				Common.Tell(Command)
+				Common.Tell ("------------------")
+			Common.Tell ("Subproject Removed")
+			Common.Tell ("------------------")
+			
+def ConfigAllSub() :
+	for FolderNameLoop in Subfolders:
+		#print (FolderNameLoop)
+		FolderName = os.path.basename(FolderNameLoop)
+		#print(FolderName)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		Common.Tell (FolderNameLoop)
+		ProjectName=FolderNameLoop+"/project.pj"
+		Common.Tell (ProjectName)
+		Command= SharedFolderVariantCommand +"  "+ ProjectName
+		subprocess.call(Command, shell=True)
+		Common.Tell(Command)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject OPerated")
+		Common.Tell ("------------------")
+			
+def ConfigAllSubToNormal() :
+	for FolderNameLoop in Subfolders:
+		#print (FolderNameLoop)
+		FolderName = os.path.basename(FolderNameLoop)
+		#print(FolderName)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject Figured")
+		Common.Tell ("------------------")
+		Common.Tell (FolderNameLoop)
+		ProjectName=FolderNameLoop+"/project.pj"
+		Common.Tell (ProjectName)
+		Command= RefNormalCommand +"  "+ ProjectName
+		subprocess.call(Command, shell=True)
+		Common.Tell(Command)
+		Common.Tell ("------------------")
+		Common.Tell ("Subproject OPerated")
+		Common.Tell ("------------------")	
+
+		
+def ConfigSharedListToVariant() :
+	for FolderNameLoop in Subfolders:
+		#print (FolderNameLoop)
+		FolderName = os.path.basename(FolderNameLoop)
+		#print(FolderName)
+		for Component in ExecutiveComponentList:
+			if FolderName == Component:
+				Common.Tell ("------------------")
+				Common.Tell ("Subproject Figured")
+				Common.Tell ("------------------")
+				Common.Tell (FolderNameLoop)
+				ProjectName=FolderNameLoop+"/project.pj"
+				Common.Tell (ProjectName)
+				Command= SharedFolderVariantCommand + VariantConfigAll[Component]+"  "+ ProjectName
+				subprocess.call(Command, shell=True)
+				Common.Tell(Command)
+				Common.Tell ("------------------")
+				Common.Tell ("Subproject Configured")
+				Common.Tell ("------------------")			
+
+#ConfigAllSub()
+
+def main():
+	#ConfigAllSubToNormal()
+	ConfigSharedListToVariant()
+	
+	
+	
+main()

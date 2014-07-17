@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<data>
+    <Configuration name="Liechtenstein">
+        <value>1</value>
+        <year>2008</year>
+        <gdppc>141100</gdppc>
+        <neighbor name="Austria" direction="E"/>
+        <neighbor name="Switzerland" direction="W"/>
+    </Configuration>
+    <Configuration name="Singapore">
+        <value>4</value>
+        <year>2011</year>
+        <gdppc>59900</gdppc>
+        <neighbor name="Malaysia" direction="N"/>
+    </Configuration>
+    <Configuration name="Panama">
+        <value>68</value>
+        <year>2011</year>
+        <gdppc>13600</gdppc>
+        <neighbor name="Costa Rica" direction="W"/>
+        <neighbor name="Colombia" direction="E"/>
+    </Configuration>
+</data>
