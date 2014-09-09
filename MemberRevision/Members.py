@@ -12,11 +12,54 @@ debug = 0
 SOURCE_SB = "SMFC4B0_07.00.00"
 Destination_SB = "SMFC4B0"
 Proj_NAme = "MFC400"
-CP = "241130:1"
+#CP = "241130:1"
 MainDir = "D:/Sandboxs/"
 ListOfDirs = ["\\06_Algorithm\\04_Engineering\\05_Deliverables\\dll\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\sdl\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\lib\\", "\\06_Algorithm\\04_Engineering\\05_Deliverables\\cfg\\algo\\joint\\"]
 
 ListOfDirsToSynchNotRecursive = ["/06_Algorithm/"]
+
+class UserInfo:
+	def __init__(self, id):
+		self.ID=""
+		self.cp=""
+		self.cpList = []
+		
+		
+MyInfo = 	UserInfo(0)
+def dump(obj):
+   print("#"*30)
+   for attr in dir(obj):
+       if hasattr( obj, attr ):
+           if attr != "__doc__" and attr != "__init__" and attr != "__module__":
+               print("-"*30)
+               print( "obj.%s = %s" % (attr, getattr(obj, attr)))
+               print("-"*30)
+   #subs = obj.__subclasses__()
+   #for cls in vars()['obj'].subclasses():
+       #dump(cls)
+def InitUserInfo():
+	Build_Command = "si viewcps --fields=user  "
+	proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	stdout_str, stderr_str = proc.communicate()
+	#print(stdout_str)
+	Lines = stdout_str.split()
+	x = Lines[2].replace("(","")
+	x = x.replace(")","")
+	MyInfo.ID = x
+
+	Build_Command = "si viewcps --fields=id --filter=project:"+Proj_NAme+"  --filter=user:"+MyInfo.ID+" --filter=state:Open  "
+	proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	stdout_str, stderr_str = proc.communicate()
+	print(stdout_str)
+	Lines = stdout_str.split()
+	for line in Lines:
+		x = line.replace(" ","")
+		MyInfo.cp = x
+		MyInfo.cpList.append(x)
+	
+	dump(MyInfo)
+	
+	
 def ResynchAll():
 	commandref = "si resync --norecurse "
 	for Dir in ListOfDirsToSynchNotRecursive:
@@ -44,6 +87,7 @@ def premain():
 	
 	Logf = open("./log/Build.log", "wb+")
 	ResynchAll()
+	InitUserInfo()
 
 def postmain():
 	Logf.close()
@@ -169,7 +213,7 @@ def GetArch(file):
 			
 def SetRevision(file, ver):
 	opt ="    "
-	Build_Command = "si updaterevision " +opt+"--changepackageid="+ CP+" --revision="+ver+" "+file 
+	Build_Command = "si updaterevision " +opt+"--changepackageid="+ MyInfo.cp+" --revision="+ver+" "+file 
 	Kprint("-*"*30)	
 	proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	stdout_str, stderr_str = proc.communicate()
@@ -227,6 +271,8 @@ def main():
 	#CheckShared("D:\\Sandboxs\\SMFC4B0_06.00.00\\06_Algorithm\\04_Engineering\\05_Deliverables\\dll\\algo\\cct_mo\\fancy_table.dll	")
 	
 	
+def test ():
+	InitUserInfo()
 	
 premain()
 main()
