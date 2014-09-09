@@ -116,7 +116,8 @@ MFC4T0_R1_2_COMPONENT_LIST = [\
 ]
 CompanentNames_Temp = []
 
-CompanentNames = ComponentList
+CompanentNames = ["sod","fsd","hla","pv","eba","ld","ldw","semo","emo","sac","ecm","sr","scb"]
+CompanentNames = ["fsd","hla","pv","ld","semo","emo","sac","ecm","sr","scb", "mac"]
 
 
 
@@ -151,6 +152,7 @@ RepositoryNames = {\
 'datcon':'DatCon_AdtfFileReader',\
 'ecm':'ECM_EOLCalibrationMono',\
 'emo':'EMO_EgoMotion',\
+'mac':'EMO_EgoMotion',\
 'memo':'EMO_EgoMotion',\
 'semo':'EMO_EgoMotion',\
 'em':'EM_EnvironmentModel',\
@@ -290,13 +292,14 @@ DestinationNames = {\
 'vl':'vl',\
 'vodca':'vodca',\
 'rta':'rta',\
+'mac':'mac',\
 }
 
 MainProjectName="MFC400"
 DestinationProjectType="Variant"
 
 if DestinationProjectType == "Variant":
-	DestinationDevPath="SMFC4B0_05.01.00"
+	DestinationDevPath="SMFC4B0_07.00.00"
 
 
 
@@ -311,8 +314,9 @@ Test = 0
 DestinationProject = "/nfs/projekte1/PROJECTS/"+MainProjectName+"/"
 DestinationSubProject = "/04_Engineering/05_Deliverables/lib/ti_c674x/algo/"
 DestinationSubProject = "\\05_Testing\\05_Test_Environment\\algo\\modtests\\qac_tests\\"
+DestinationSubProject = "\\05_Testing\\04_Test_Data\\01_Input\\algo\\reqtests\\"
 
-ChangePackageList={"MFC400":"227907:2","srlcam":"203064:1"}
+ChangePackageList={"MFC400":"241130:1","srlcam":"203064:1"}
 ChangePackage=ChangePackageList[MainProjectName]
 CoresList = ["M11","S11","S13","S14","S16"]
 
@@ -506,7 +510,7 @@ def AddSharedSubProjectsListExtended() :
 			Common.Tell ("------------------")
 					
 def main():
-	AddSharedSubProjectsList()
+	AddSharedSubProjects()
 	
 	
 	

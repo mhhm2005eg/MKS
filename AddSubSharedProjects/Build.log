@@ -66876,3 +66876,1305 @@ DEBUG:root:1402481131.04
 DEBUG:root:Subproject OPerated
 DEBUG:root:1402481131.04
 DEBUG:root:------------------
+DEBUG:root:1409835228.24
+DEBUG:root:------------------
+DEBUG:root:1409835228.28
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.28
+DEBUG:root:------------------
+DEBUG:root:1409835228.52
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono\05_Testing\04_Test_Data\01_Input\algo\reqtests/ecm/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsecm/project.pj
+DEBUG:root:1409835228.52
+DEBUG:root:------------------
+DEBUG:root:1409835228.52
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835228.52
+DEBUG:root:------------------
+DEBUG:root:1409835228.52
+DEBUG:root:------------------
+DEBUG:root:1409835228.52
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.52
+DEBUG:root:------------------
+DEBUG:root:1409835228.61
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel\05_Testing\04_Test_Data\01_Input\algo\reqtests/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsem/project.pj
+DEBUG:root:1409835228.61
+DEBUG:root:------------------
+DEBUG:root:1409835228.61
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835228.61
+DEBUG:root:------------------
+DEBUG:root:1409835228.61
+DEBUG:root:------------------
+DEBUG:root:1409835228.61
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.61
+DEBUG:root:------------------
+DEBUG:root:1409835228.7
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsld/project.pj
+DEBUG:root:1409835228.7
+DEBUG:root:------------------
+DEBUG:root:1409835228.7
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835228.7
+DEBUG:root:------------------
+DEBUG:root:1409835228.71
+DEBUG:root:------------------
+DEBUG:root:1409835228.71
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.71
+DEBUG:root:------------------
+DEBUG:root:1409835228.81
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator\05_Testing\04_Test_Data\01_Input\algo\reqtests/pc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestspc/project.pj
+DEBUG:root:1409835228.81
+DEBUG:root:------------------
+DEBUG:root:1409835228.81
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835228.81
+DEBUG:root:------------------
+DEBUG:root:1409835228.81
+DEBUG:root:------------------
+DEBUG:root:1409835228.81
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.81
+DEBUG:root:------------------
+DEBUG:root:1409835228.9
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests/ped/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsped/project.pj
+DEBUG:root:1409835228.9
+DEBUG:root:------------------
+DEBUG:root:1409835228.9
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835228.9
+DEBUG:root:------------------
+DEBUG:root:1409835228.9
+DEBUG:root:------------------
+DEBUG:root:1409835228.9
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835228.9
+DEBUG:root:------------------
+DEBUG:root:1409835229.0
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests/vcl/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsvcl/project.pj
+DEBUG:root:1409835229.0
+DEBUG:root:------------------
+DEBUG:root:1409835229.01
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.01
+DEBUG:root:------------------
+DEBUG:root:1409835229.01
+DEBUG:root:------------------
+DEBUG:root:1409835229.01
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.02
+DEBUG:root:------------------
+DEBUG:root:1409835229.12
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestssr/project.pj
+DEBUG:root:1409835229.12
+DEBUG:root:------------------
+DEBUG:root:1409835229.12
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.13
+DEBUG:root:------------------
+DEBUG:root:1409835229.13
+DEBUG:root:------------------
+DEBUG:root:1409835229.13
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.13
+DEBUG:root:------------------
+DEBUG:root:1409835229.25
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests/tsa/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqteststsa/project.pj
+DEBUG:root:1409835229.25
+DEBUG:root:------------------
+DEBUG:root:1409835229.25
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.25
+DEBUG:root:------------------
+DEBUG:root:1409835229.26
+DEBUG:root:------------------
+DEBUG:root:1409835229.26
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.26
+DEBUG:root:------------------
+DEBUG:root:1409835229.38
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox\05_Testing\04_Test_Data\01_Input\algo\reqtests/cct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestscct/project.pj
+DEBUG:root:1409835229.39
+DEBUG:root:------------------
+DEBUG:root:1409835229.39
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.39
+DEBUG:root:------------------
+DEBUG:root:1409835229.39
+DEBUG:root:------------------
+DEBUG:root:1409835229.4
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.4
+DEBUG:root:------------------
+DEBUG:root:1409835229.51
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests/gb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsgb/project.pj
+DEBUG:root:1409835229.51
+DEBUG:root:------------------
+DEBUG:root:1409835229.52
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.52
+DEBUG:root:------------------
+DEBUG:root:1409835229.52
+DEBUG:root:------------------
+DEBUG:root:1409835229.53
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.53
+DEBUG:root:------------------
+DEBUG:root:1409835229.63
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestshla/project.pj
+DEBUG:root:1409835229.63
+DEBUG:root:------------------
+DEBUG:root:1409835229.63
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.63
+DEBUG:root:------------------
+DEBUG:root:1409835229.63
+DEBUG:root:------------------
+DEBUG:root:1409835229.64
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.64
+DEBUG:root:------------------
+DEBUG:root:1409835229.74
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation\05_Testing\04_Test_Data\01_Input\algo\reqtests/pfc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestspfc/project.pj
+DEBUG:root:1409835229.74
+DEBUG:root:------------------
+DEBUG:root:1409835229.75
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.75
+DEBUG:root:------------------
+DEBUG:root:1409835229.75
+DEBUG:root:------------------
+DEBUG:root:1409835229.75
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.75
+DEBUG:root:------------------
+DEBUG:root:1409835229.85
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests/memo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsmemo/project.pj
+DEBUG:root:1409835229.85
+DEBUG:root:------------------
+DEBUG:root:1409835229.86
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.86
+DEBUG:root:------------------
+DEBUG:root:1409835229.86
+DEBUG:root:------------------
+DEBUG:root:1409835229.86
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.87
+DEBUG:root:------------------
+DEBUG:root:1409835229.96
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestssemo/project.pj
+DEBUG:root:1409835229.96
+DEBUG:root:------------------
+DEBUG:root:1409835229.96
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835229.96
+DEBUG:root:------------------
+DEBUG:root:1409835229.96
+DEBUG:root:------------------
+DEBUG:root:1409835229.97
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835229.97
+DEBUG:root:------------------
+DEBUG:root:1409835230.07
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VODCA_VisualObjectDetectionandClassificationAlgorithms\05_Testing\04_Test_Data\01_Input\algo\reqtests/vodca/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsvodca/project.pj
+DEBUG:root:1409835230.07
+DEBUG:root:------------------
+DEBUG:root:1409835230.07
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835230.08
+DEBUG:root:------------------
+DEBUG:root:1409835230.08
+DEBUG:root:------------------
+DEBUG:root:1409835230.08
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835230.08
+DEBUG:root:------------------
+DEBUG:root:1409835230.19
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestsproject.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtestspv/project.pj
+DEBUG:root:1409835230.19
+DEBUG:root:------------------
+DEBUG:root:1409835230.19
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835230.2
+DEBUG:root:------------------
+DEBUG:root:1409835274.27
+DEBUG:root:------------------
+DEBUG:root:1409835274.27
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835274.27
+DEBUG:root:------------------
+DEBUG:root:1409835277.26
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ecm/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ecm/project.pj
+DEBUG:root:1409835277.27
+DEBUG:root:------------------
+DEBUG:root:1409835277.27
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835277.27
+DEBUG:root:------------------
+DEBUG:root:1409835277.28
+DEBUG:root:------------------
+DEBUG:root:1409835277.28
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835277.28
+DEBUG:root:------------------
+DEBUG:root:1409835279.55
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel\05_Testing\04_Test_Data\01_Input\algo\reqtests\/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\em/project.pj
+DEBUG:root:1409835279.55
+DEBUG:root:------------------
+DEBUG:root:1409835279.56
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835279.56
+DEBUG:root:------------------
+DEBUG:root:1409835279.56
+DEBUG:root:------------------
+DEBUG:root:1409835279.56
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835279.57
+DEBUG:root:------------------
+DEBUG:root:1409835282.35
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409835282.35
+DEBUG:root:------------------
+DEBUG:root:1409835282.36
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835282.37
+DEBUG:root:------------------
+DEBUG:root:1409835282.37
+DEBUG:root:------------------
+DEBUG:root:1409835282.37
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835282.38
+DEBUG:root:------------------
+DEBUG:root:1409835282.51
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PC_PatchCorrelator\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pc/project.pj
+DEBUG:root:1409835282.51
+DEBUG:root:------------------
+DEBUG:root:1409835282.51
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835282.51
+DEBUG:root:------------------
+DEBUG:root:1409835282.51
+DEBUG:root:------------------
+DEBUG:root:1409835282.52
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835282.52
+DEBUG:root:------------------
+DEBUG:root:1409835282.64
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PED_PedestrianRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ped/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ped/project.pj
+DEBUG:root:1409835282.64
+DEBUG:root:------------------
+DEBUG:root:1409835282.64
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835282.64
+DEBUG:root:------------------
+DEBUG:root:1409835282.65
+DEBUG:root:------------------
+DEBUG:root:1409835282.65
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835282.65
+DEBUG:root:------------------
+DEBUG:root:1409835282.78
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VCL_VehicleDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/vcl/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\vcl/project.pj
+DEBUG:root:1409835282.78
+DEBUG:root:------------------
+DEBUG:root:1409835282.79
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835282.79
+DEBUG:root:------------------
+DEBUG:root:1409835282.79
+DEBUG:root:------------------
+DEBUG:root:1409835282.79
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835282.8
+DEBUG:root:------------------
+DEBUG:root:1409835282.93
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409835282.93
+DEBUG:root:------------------
+DEBUG:root:1409835282.93
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835282.94
+DEBUG:root:------------------
+DEBUG:root:1409835282.94
+DEBUG:root:------------------
+DEBUG:root:1409835282.94
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835282.94
+DEBUG:root:------------------
+DEBUG:root:1409835283.06
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/TSA_TrafficSignAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/tsa/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\tsa/project.pj
+DEBUG:root:1409835283.06
+DEBUG:root:------------------
+DEBUG:root:1409835283.06
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835283.07
+DEBUG:root:------------------
+DEBUG:root:1409835283.07
+DEBUG:root:------------------
+DEBUG:root:1409835283.07
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835283.07
+DEBUG:root:------------------
+DEBUG:root:1409835283.2
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCT_CommonCameraToolbox\05_Testing\04_Test_Data\01_Input\algo\reqtests\/cct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\cct/project.pj
+DEBUG:root:1409835283.2
+DEBUG:root:------------------
+DEBUG:root:1409835283.2
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835283.21
+DEBUG:root:------------------
+DEBUG:root:1409835283.21
+DEBUG:root:------------------
+DEBUG:root:1409835283.21
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835283.21
+DEBUG:root:------------------
+DEBUG:root:1409835283.34
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/gb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\gb/project.pj
+DEBUG:root:1409835283.34
+DEBUG:root:------------------
+DEBUG:root:1409835283.34
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835283.35
+DEBUG:root:------------------
+DEBUG:root:1409835283.35
+DEBUG:root:------------------
+DEBUG:root:1409835283.35
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835283.35
+DEBUG:root:------------------
+DEBUG:root:1409835285.93
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409835285.94
+DEBUG:root:------------------
+DEBUG:root:1409835285.94
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835285.94
+DEBUG:root:------------------
+DEBUG:root:1409835285.95
+DEBUG:root:------------------
+DEBUG:root:1409835285.95
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835285.95
+DEBUG:root:------------------
+DEBUG:root:1409835286.1
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/OFC_OpticalFlowComputation\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pfc/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pfc/project.pj
+DEBUG:root:1409835286.1
+DEBUG:root:------------------
+DEBUG:root:1409835286.11
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835286.11
+DEBUG:root:------------------
+DEBUG:root:1409835286.11
+DEBUG:root:------------------
+DEBUG:root:1409835286.11
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835286.11
+DEBUG:root:------------------
+DEBUG:root:1409835286.29
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/memo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\memo/project.pj
+DEBUG:root:1409835286.29
+DEBUG:root:------------------
+DEBUG:root:1409835286.29
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835286.29
+DEBUG:root:------------------
+DEBUG:root:1409835286.3
+DEBUG:root:------------------
+DEBUG:root:1409835286.3
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835286.3
+DEBUG:root:------------------
+DEBUG:root:1409835286.47
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409835286.47
+DEBUG:root:------------------
+DEBUG:root:1409835286.48
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835286.48
+DEBUG:root:------------------
+DEBUG:root:1409835286.48
+DEBUG:root:------------------
+DEBUG:root:1409835286.48
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835286.48
+DEBUG:root:------------------
+DEBUG:root:1409835286.64
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/VODCA_VisualObjectDetectionandClassificationAlgorithms\05_Testing\04_Test_Data\01_Input\algo\reqtests\/vodca/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\vodca/project.pj
+DEBUG:root:1409835286.64
+DEBUG:root:------------------
+DEBUG:root:1409835286.64
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835286.65
+DEBUG:root:------------------
+DEBUG:root:1409835286.65
+DEBUG:root:------------------
+DEBUG:root:1409835286.65
+DEBUG:root:Subproject Figured
+DEBUG:root:1409835286.65
+DEBUG:root:------------------
+DEBUG:root:1409835286.79
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409835286.79
+DEBUG:root:------------------
+DEBUG:root:1409835286.79
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409835286.79
+DEBUG:root:------------------
+DEBUG:root:1409837213.34
+DEBUG:root:------------------
+DEBUG:root:1409837213.34
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837213.34
+DEBUG:root:------------------
+DEBUG:root:1409837213.54
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SIB_StereoImageBase\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sib/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sib/project.pj
+DEBUG:root:1409837213.54
+DEBUG:root:------------------
+DEBUG:root:1409837213.55
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837213.55
+DEBUG:root:------------------
+DEBUG:root:1409837213.55
+DEBUG:root:------------------
+DEBUG:root:1409837213.55
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837213.56
+DEBUG:root:------------------
+DEBUG:root:1409837213.7
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409837213.7
+DEBUG:root:------------------
+DEBUG:root:1409837213.7
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837213.71
+DEBUG:root:------------------
+DEBUG:root:1409837213.71
+DEBUG:root:------------------
+DEBUG:root:1409837213.71
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837213.72
+DEBUG:root:------------------
+DEBUG:root:1409837216.36
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SAC_StereoAutoCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sac/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sac/project.pj
+DEBUG:root:1409837216.36
+DEBUG:root:------------------
+DEBUG:root:1409837216.36
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837216.36
+DEBUG:root:------------------
+DEBUG:root:1409837216.37
+DEBUG:root:------------------
+DEBUG:root:1409837216.37
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837216.37
+DEBUG:root:------------------
+DEBUG:root:1409837216.6
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/GEN_GeneralObjectDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/gen/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\gen/project.pj
+DEBUG:root:1409837216.6
+DEBUG:root:------------------
+DEBUG:root:1409837216.6
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837216.61
+DEBUG:root:------------------
+DEBUG:root:1409837216.61
+DEBUG:root:------------------
+DEBUG:root:1409837216.61
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837216.61
+DEBUG:root:------------------
+DEBUG:root:1409837216.74
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409837216.75
+DEBUG:root:------------------
+DEBUG:root:1409837216.75
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837216.75
+DEBUG:root:------------------
+DEBUG:root:1409837216.75
+DEBUG:root:------------------
+DEBUG:root:1409837216.76
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837216.76
+DEBUG:root:------------------
+DEBUG:root:1409837216.88
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/scb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\scb/project.pj
+DEBUG:root:1409837216.89
+DEBUG:root:------------------
+DEBUG:root:1409837216.89
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837216.89
+DEBUG:root:------------------
+DEBUG:root:1409837216.89
+DEBUG:root:------------------
+DEBUG:root:1409837216.9
+DEBUG:root:Subproject Figured
+DEBUG:root:1409837216.9
+DEBUG:root:------------------
+DEBUG:root:1409837217.05
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409837217.05
+DEBUG:root:------------------
+DEBUG:root:1409837217.05
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409837217.05
+DEBUG:root:------------------
+DEBUG:root:1409838189.7
+DEBUG:root:------------------
+DEBUG:root:1409838189.7
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838189.7
+DEBUG:root:------------------
+DEBUG:root:1409838189.82
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/memo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\memo/project.pj
+DEBUG:root:1409838189.82
+DEBUG:root:------------------
+DEBUG:root:1409838189.83
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838189.83
+DEBUG:root:------------------
+DEBUG:root:1409838189.83
+DEBUG:root:------------------
+DEBUG:root:1409838189.83
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838189.84
+DEBUG:root:------------------
+DEBUG:root:1409838189.99
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409838189.99
+DEBUG:root:------------------
+DEBUG:root:1409838190.0
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838190.0
+DEBUG:root:------------------
+DEBUG:root:1409838190.0
+DEBUG:root:------------------
+DEBUG:root:1409838190.0
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838190.01
+DEBUG:root:------------------
+DEBUG:root:1409838190.13
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409838190.13
+DEBUG:root:------------------
+DEBUG:root:1409838190.13
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838190.13
+DEBUG:root:------------------
+DEBUG:root:1409838190.14
+DEBUG:root:------------------
+DEBUG:root:1409838190.14
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838190.14
+DEBUG:root:------------------
+DEBUG:root:1409838190.3
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409838190.31
+DEBUG:root:------------------
+DEBUG:root:1409838190.31
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838190.31
+DEBUG:root:------------------
+DEBUG:root:1409838190.31
+DEBUG:root:------------------
+DEBUG:root:1409838190.32
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838190.32
+DEBUG:root:------------------
+DEBUG:root:1409838190.44
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409838190.45
+DEBUG:root:------------------
+DEBUG:root:1409838190.45
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838190.45
+DEBUG:root:------------------
+DEBUG:root:1409838190.45
+DEBUG:root:------------------
+DEBUG:root:1409838190.45
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838190.46
+DEBUG:root:------------------
+DEBUG:root:1409838193.15
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fct/project.pj
+DEBUG:root:1409838193.15
+DEBUG:root:------------------
+DEBUG:root:1409838193.15
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.16
+DEBUG:root:------------------
+DEBUG:root:1409838193.16
+DEBUG:root:------------------
+DEBUG:root:1409838193.16
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838193.16
+DEBUG:root:------------------
+DEBUG:root:1409838193.32
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/cb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\cb/project.pj
+DEBUG:root:1409838193.32
+DEBUG:root:------------------
+DEBUG:root:1409838193.32
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.33
+DEBUG:root:------------------
+DEBUG:root:1409838193.33
+DEBUG:root:------------------
+DEBUG:root:1409838193.33
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838193.33
+DEBUG:root:------------------
+DEBUG:root:1409838193.43
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel\05_Testing\04_Test_Data\01_Input\algo\reqtests\/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\em/project.pj
+DEBUG:root:1409838193.43
+DEBUG:root:------------------
+DEBUG:root:1409838193.44
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.44
+DEBUG:root:------------------
+DEBUG:root:1409838193.44
+DEBUG:root:------------------
+DEBUG:root:1409838193.44
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838193.45
+DEBUG:root:------------------
+DEBUG:root:1409838193.54
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409838193.55
+DEBUG:root:------------------
+DEBUG:root:1409838193.55
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.55
+DEBUG:root:------------------
+DEBUG:root:1409838193.55
+DEBUG:root:------------------
+DEBUG:root:1409838193.55
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838193.56
+DEBUG:root:------------------
+DEBUG:root:1409838193.74
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCAL_CameraCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ccal/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ccal/project.pj
+DEBUG:root:1409838193.74
+DEBUG:root:------------------
+DEBUG:root:1409838193.74
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.74
+DEBUG:root:------------------
+DEBUG:root:1409838193.74
+DEBUG:root:------------------
+DEBUG:root:1409838193.75
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838193.75
+DEBUG:root:------------------
+DEBUG:root:1409838193.88
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409838193.88
+DEBUG:root:------------------
+DEBUG:root:1409838193.88
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838193.88
+DEBUG:root:------------------
+DEBUG:root:1409838342.92
+DEBUG:root:------------------
+DEBUG:root:1409838342.93
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838342.93
+DEBUG:root:------------------
+DEBUG:root:1409838345.54
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/emo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\emo/project.pj
+DEBUG:root:1409838345.55
+DEBUG:root:------------------
+DEBUG:root:1409838345.55
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838345.56
+DEBUG:root:------------------
+DEBUG:root:1409838345.56
+DEBUG:root:------------------
+DEBUG:root:1409838345.56
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838345.56
+DEBUG:root:------------------
+DEBUG:root:1409838345.72
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409838345.72
+DEBUG:root:------------------
+DEBUG:root:1409838345.72
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838345.72
+DEBUG:root:------------------
+DEBUG:root:1409838345.73
+DEBUG:root:------------------
+DEBUG:root:1409838345.73
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838345.73
+DEBUG:root:------------------
+DEBUG:root:1409838345.87
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409838345.87
+DEBUG:root:------------------
+DEBUG:root:1409838345.88
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838345.88
+DEBUG:root:------------------
+DEBUG:root:1409838345.88
+DEBUG:root:------------------
+DEBUG:root:1409838345.88
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838345.89
+DEBUG:root:------------------
+DEBUG:root:1409838345.97
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409838345.97
+DEBUG:root:------------------
+DEBUG:root:1409838345.97
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838345.98
+DEBUG:root:------------------
+DEBUG:root:1409838345.98
+DEBUG:root:------------------
+DEBUG:root:1409838345.98
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838345.98
+DEBUG:root:------------------
+DEBUG:root:1409838346.14
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409838346.14
+DEBUG:root:------------------
+DEBUG:root:1409838346.15
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.15
+DEBUG:root:------------------
+DEBUG:root:1409838346.15
+DEBUG:root:------------------
+DEBUG:root:1409838346.16
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.16
+DEBUG:root:------------------
+DEBUG:root:1409838346.29
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fct/project.pj
+DEBUG:root:1409838346.29
+DEBUG:root:------------------
+DEBUG:root:1409838346.3
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.3
+DEBUG:root:------------------
+DEBUG:root:1409838346.3
+DEBUG:root:------------------
+DEBUG:root:1409838346.3
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.31
+DEBUG:root:------------------
+DEBUG:root:1409838346.46
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/cb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\cb/project.pj
+DEBUG:root:1409838346.46
+DEBUG:root:------------------
+DEBUG:root:1409838346.47
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.47
+DEBUG:root:------------------
+DEBUG:root:1409838346.48
+DEBUG:root:------------------
+DEBUG:root:1409838346.48
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.48
+DEBUG:root:------------------
+DEBUG:root:1409838346.57
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel\05_Testing\04_Test_Data\01_Input\algo\reqtests\/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\em/project.pj
+DEBUG:root:1409838346.57
+DEBUG:root:------------------
+DEBUG:root:1409838346.58
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.58
+DEBUG:root:------------------
+DEBUG:root:1409838346.58
+DEBUG:root:------------------
+DEBUG:root:1409838346.58
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.59
+DEBUG:root:------------------
+DEBUG:root:1409838346.7
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409838346.7
+DEBUG:root:------------------
+DEBUG:root:1409838346.71
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.71
+DEBUG:root:------------------
+DEBUG:root:1409838346.71
+DEBUG:root:------------------
+DEBUG:root:1409838346.72
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.72
+DEBUG:root:------------------
+DEBUG:root:1409838346.89
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCAL_CameraCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ccal/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ccal/project.pj
+DEBUG:root:1409838346.89
+DEBUG:root:------------------
+DEBUG:root:1409838346.9
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838346.9
+DEBUG:root:------------------
+DEBUG:root:1409838346.9
+DEBUG:root:------------------
+DEBUG:root:1409838346.9
+DEBUG:root:Subproject Figured
+DEBUG:root:1409838346.91
+DEBUG:root:------------------
+DEBUG:root:1409838347.08
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409838347.08
+DEBUG:root:------------------
+DEBUG:root:1409838347.09
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409838347.09
+DEBUG:root:------------------
+DEBUG:root:1409839123.31
+DEBUG:root:------------------
+DEBUG:root:1409839123.32
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839123.32
+DEBUG:root:------------------
+DEBUG:root:1409839125.15
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/emo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\emo/project.pj
+DEBUG:root:1409839125.16
+DEBUG:root:------------------
+DEBUG:root:1409839125.16
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839125.16
+DEBUG:root:------------------
+DEBUG:root:1409839125.16
+DEBUG:root:------------------
+DEBUG:root:1409839125.17
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839125.17
+DEBUG:root:------------------
+DEBUG:root:1409839125.35
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409839125.35
+DEBUG:root:------------------
+DEBUG:root:1409839125.36
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839125.36
+DEBUG:root:------------------
+DEBUG:root:1409839125.37
+DEBUG:root:------------------
+DEBUG:root:1409839125.37
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839125.37
+DEBUG:root:------------------
+DEBUG:root:1409839125.54
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409839125.55
+DEBUG:root:------------------
+DEBUG:root:1409839125.55
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839125.55
+DEBUG:root:------------------
+DEBUG:root:1409839125.55
+DEBUG:root:------------------
+DEBUG:root:1409839125.55
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839125.56
+DEBUG:root:------------------
+DEBUG:root:1409839127.33
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409839127.33
+DEBUG:root:------------------
+DEBUG:root:1409839127.34
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839127.34
+DEBUG:root:------------------
+DEBUG:root:1409839127.34
+DEBUG:root:------------------
+DEBUG:root:1409839127.34
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839127.34
+DEBUG:root:------------------
+DEBUG:root:1409839127.52
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409839127.52
+DEBUG:root:------------------
+DEBUG:root:1409839127.53
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839127.53
+DEBUG:root:------------------
+DEBUG:root:1409839127.53
+DEBUG:root:------------------
+DEBUG:root:1409839127.53
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839127.54
+DEBUG:root:------------------
+DEBUG:root:1409839129.46
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FCT_Function\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fct/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fct/project.pj
+DEBUG:root:1409839129.46
+DEBUG:root:------------------
+DEBUG:root:1409839129.46
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839129.46
+DEBUG:root:------------------
+DEBUG:root:1409839129.47
+DEBUG:root:------------------
+DEBUG:root:1409839129.47
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839129.47
+DEBUG:root:------------------
+DEBUG:root:1409839129.59
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/cb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\cb/project.pj
+DEBUG:root:1409839129.59
+DEBUG:root:------------------
+DEBUG:root:1409839129.6
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839129.6
+DEBUG:root:------------------
+DEBUG:root:1409839129.6
+DEBUG:root:------------------
+DEBUG:root:1409839129.6
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839129.6
+DEBUG:root:------------------
+DEBUG:root:1409839131.41
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EM_EnvironmentModel\05_Testing\04_Test_Data\01_Input\algo\reqtests\/em/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\em/project.pj
+DEBUG:root:1409839131.41
+DEBUG:root:------------------
+DEBUG:root:1409839131.42
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839131.42
+DEBUG:root:------------------
+DEBUG:root:1409839131.42
+DEBUG:root:------------------
+DEBUG:root:1409839131.42
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839131.42
+DEBUG:root:------------------
+DEBUG:root:1409839133.28
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409839133.28
+DEBUG:root:------------------
+DEBUG:root:1409839133.28
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839133.28
+DEBUG:root:------------------
+DEBUG:root:1409839133.29
+DEBUG:root:------------------
+DEBUG:root:1409839133.29
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839133.29
+DEBUG:root:------------------
+DEBUG:root:1409839133.43
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CCAL_CameraCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ccal/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ccal/project.pj
+DEBUG:root:1409839133.43
+DEBUG:root:------------------
+DEBUG:root:1409839133.43
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839133.43
+DEBUG:root:------------------
+DEBUG:root:1409839133.44
+DEBUG:root:------------------
+DEBUG:root:1409839133.44
+DEBUG:root:Subproject Figured
+DEBUG:root:1409839133.44
+DEBUG:root:------------------
+DEBUG:root:1409839133.55
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409839133.55
+DEBUG:root:------------------
+DEBUG:root:1409839133.56
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409839133.56
+DEBUG:root:------------------
+DEBUG:root:1409899126.01
+DEBUG:root:------------------
+DEBUG:root:1409899126.03
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899126.03
+DEBUG:root:------------------
+DEBUG:root:1409899127.59
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409899127.6
+DEBUG:root:------------------
+DEBUG:root:1409899127.61
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899127.61
+DEBUG:root:------------------
+DEBUG:root:1409899127.61
+DEBUG:root:------------------
+DEBUG:root:1409899127.61
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899127.61
+DEBUG:root:------------------
+DEBUG:root:1409899127.76
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409899127.76
+DEBUG:root:------------------
+DEBUG:root:1409899127.76
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899127.76
+DEBUG:root:------------------
+DEBUG:root:1409899127.77
+DEBUG:root:------------------
+DEBUG:root:1409899127.77
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899127.77
+DEBUG:root:------------------
+DEBUG:root:1409899127.93
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409899127.93
+DEBUG:root:------------------
+DEBUG:root:1409899127.94
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899127.94
+DEBUG:root:------------------
+DEBUG:root:1409899127.94
+DEBUG:root:------------------
+DEBUG:root:1409899127.94
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899127.94
+DEBUG:root:------------------
+DEBUG:root:1409899128.05
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409899128.05
+DEBUG:root:------------------
+DEBUG:root:1409899128.05
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899128.06
+DEBUG:root:------------------
+DEBUG:root:1409899128.06
+DEBUG:root:------------------
+DEBUG:root:1409899128.06
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899128.06
+DEBUG:root:------------------
+DEBUG:root:1409899128.22
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409899128.22
+DEBUG:root:------------------
+DEBUG:root:1409899128.22
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899128.22
+DEBUG:root:------------------
+DEBUG:root:1409899128.23
+DEBUG:root:------------------
+DEBUG:root:1409899128.23
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899128.23
+DEBUG:root:------------------
+DEBUG:root:1409899128.37
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/emo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\emo/project.pj
+DEBUG:root:1409899128.37
+DEBUG:root:------------------
+DEBUG:root:1409899128.37
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899128.37
+DEBUG:root:------------------
+DEBUG:root:1409899128.38
+DEBUG:root:------------------
+DEBUG:root:1409899128.38
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899128.39
+DEBUG:root:------------------
+DEBUG:root:1409899133.55
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SAC_StereoAutoCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sac/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sac/project.pj
+DEBUG:root:1409899133.56
+DEBUG:root:------------------
+DEBUG:root:1409899133.56
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899133.56
+DEBUG:root:------------------
+DEBUG:root:1409899133.57
+DEBUG:root:------------------
+DEBUG:root:1409899133.57
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899133.57
+DEBUG:root:------------------
+DEBUG:root:1409899136.71
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ecm/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ecm/project.pj
+DEBUG:root:1409899136.72
+DEBUG:root:------------------
+DEBUG:root:1409899136.72
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899136.72
+DEBUG:root:------------------
+DEBUG:root:1409899136.72
+DEBUG:root:------------------
+DEBUG:root:1409899136.73
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899136.73
+DEBUG:root:------------------
+DEBUG:root:1409899136.88
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409899136.88
+DEBUG:root:------------------
+DEBUG:root:1409899136.89
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899136.89
+DEBUG:root:------------------
+DEBUG:root:1409899136.89
+DEBUG:root:------------------
+DEBUG:root:1409899136.89
+DEBUG:root:Subproject Figured
+DEBUG:root:1409899136.89
+DEBUG:root:------------------
+DEBUG:root:1409899137.06
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/scb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\scb/project.pj
+DEBUG:root:1409899137.06
+DEBUG:root:------------------
+DEBUG:root:1409899137.06
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409899137.07
+DEBUG:root:------------------
+DEBUG:root:1409902660.02
+DEBUG:root:------------------
+DEBUG:root:1409902660.02
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.02
+DEBUG:root:------------------
+DEBUG:root:1409902660.25
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/FSD_FreeSpaceDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/fsd/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\fsd/project.pj
+DEBUG:root:1409902660.25
+DEBUG:root:------------------
+DEBUG:root:1409902660.25
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.25
+DEBUG:root:------------------
+DEBUG:root:1409902660.26
+DEBUG:root:------------------
+DEBUG:root:1409902660.26
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.26
+DEBUG:root:------------------
+DEBUG:root:1409902660.36
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/HLA_HeadLightAssist\05_Testing\04_Test_Data\01_Input\algo\reqtests\/hla/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\hla/project.pj
+DEBUG:root:1409902660.36
+DEBUG:root:------------------
+DEBUG:root:1409902660.36
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.37
+DEBUG:root:------------------
+DEBUG:root:1409902660.37
+DEBUG:root:------------------
+DEBUG:root:1409902660.37
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.37
+DEBUG:root:------------------
+DEBUG:root:1409902660.57
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/PV_PreView\05_Testing\04_Test_Data\01_Input\algo\reqtests\/pv/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\pv/project.pj
+DEBUG:root:1409902660.57
+DEBUG:root:------------------
+DEBUG:root:1409902660.57
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.58
+DEBUG:root:------------------
+DEBUG:root:1409902660.58
+DEBUG:root:------------------
+DEBUG:root:1409902660.58
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.58
+DEBUG:root:------------------
+DEBUG:root:1409902660.71
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/LD_LaneDetection\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ld/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ld/project.pj
+DEBUG:root:1409902660.71
+DEBUG:root:------------------
+DEBUG:root:1409902660.72
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.72
+DEBUG:root:------------------
+DEBUG:root:1409902660.72
+DEBUG:root:------------------
+DEBUG:root:1409902660.72
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.72
+DEBUG:root:------------------
+DEBUG:root:1409902660.86
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/semo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\semo/project.pj
+DEBUG:root:1409902660.86
+DEBUG:root:------------------
+DEBUG:root:1409902660.86
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.86
+DEBUG:root:------------------
+DEBUG:root:1409902660.87
+DEBUG:root:------------------
+DEBUG:root:1409902660.87
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.87
+DEBUG:root:------------------
+DEBUG:root:1409902660.96
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/emo/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\emo/project.pj
+DEBUG:root:1409902660.97
+DEBUG:root:------------------
+DEBUG:root:1409902660.97
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902660.97
+DEBUG:root:------------------
+DEBUG:root:1409902660.97
+DEBUG:root:------------------
+DEBUG:root:1409902660.97
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902660.98
+DEBUG:root:------------------
+DEBUG:root:1409902661.08
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SAC_StereoAutoCalibration\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sac/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sac/project.pj
+DEBUG:root:1409902661.08
+DEBUG:root:------------------
+DEBUG:root:1409902661.09
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902661.09
+DEBUG:root:------------------
+DEBUG:root:1409902661.09
+DEBUG:root:------------------
+DEBUG:root:1409902661.1
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902661.11
+DEBUG:root:------------------
+DEBUG:root:1409902661.22
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/ECM_EOLCalibrationMono\05_Testing\04_Test_Data\01_Input\algo\reqtests\/ecm/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\ecm/project.pj
+DEBUG:root:1409902661.22
+DEBUG:root:------------------
+DEBUG:root:1409902661.23
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902661.23
+DEBUG:root:------------------
+DEBUG:root:1409902661.23
+DEBUG:root:------------------
+DEBUG:root:1409902661.24
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902661.24
+DEBUG:root:------------------
+DEBUG:root:1409902661.38
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/SR_SignRecognition\05_Testing\04_Test_Data\01_Input\algo\reqtests\/sr/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\sr/project.pj
+DEBUG:root:1409902661.38
+DEBUG:root:------------------
+DEBUG:root:1409902661.39
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902661.39
+DEBUG:root:------------------
+DEBUG:root:1409902661.39
+DEBUG:root:------------------
+DEBUG:root:1409902661.4
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902661.41
+DEBUG:root:------------------
+DEBUG:root:1409902661.62
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/CB_CameraBlockage\05_Testing\04_Test_Data\01_Input\algo\reqtests\/scb/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\scb/project.pj
+DEBUG:root:1409902661.63
+DEBUG:root:------------------
+DEBUG:root:1409902661.64
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902661.64
+DEBUG:root:------------------
+DEBUG:root:1409902661.64
+DEBUG:root:------------------
+DEBUG:root:1409902661.64
+DEBUG:root:Subproject Figured
+DEBUG:root:1409902661.65
+DEBUG:root:------------------
+DEBUG:root:1409902664.65
+DEBUG:root:si sharesubproject --cpid=241130:1 --project=/nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\project.pj --devpath=SMFC4B0_07.00.00 --sharedProject=/nfs/projekte1/REPOSITORY/Base_Development/05_Algorithm/EMO_EgoMotion\05_Testing\04_Test_Data\01_Input\algo\reqtests\/mac/project.pj --type=normal /nfs/projekte1/PROJECTS/MFC400/06_Algorithm\05_Testing\04_Test_Data\01_Input\algo\reqtests\mac/project.pj
+DEBUG:root:1409902664.66
+DEBUG:root:------------------
+DEBUG:root:1409902664.67
+DEBUG:root:Subproject OPerated
+DEBUG:root:1409902664.67
+DEBUG:root:------------------

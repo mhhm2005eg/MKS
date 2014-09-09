@@ -9,13 +9,30 @@ import datetime
 from os.path import basename
 
 debug = 0
-SOURCE_SB = "SMFC4B0_06.00.00"
+SOURCE_SB = "SMFC4B0_07.00.00"
 Destination_SB = "SMFC4B0"
 Proj_NAme = "MFC400"
 CP = "241130:1"
-MainDir = "D:\\Sandboxs\\"
+MainDir = "D:/Sandboxs/"
 ListOfDirs = ["\\06_Algorithm\\04_Engineering\\05_Deliverables\\dll\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\sdl\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\lib\\", "\\06_Algorithm\\04_Engineering\\05_Deliverables\\cfg\\algo\\joint\\"]
 
+ListOfDirsToSynchNotRecursive = ["/06_Algorithm/"]
+def ResynchAll():
+	commandref = "si resync --norecurse "
+	for Dir in ListOfDirsToSynchNotRecursive:
+		folder = MainDir+Destination_SB+Dir+"project.pj"
+		Build_Command = commandref + " -S "+folder
+		proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+		stdout_str, stderr_str = proc.communicate()
+		if debug == 0:
+			print (Build_Command)
+			if stdout_str :
+				Kprint("Out: \n" + stdout_str+"\n")
+			if stderr_str:
+				Kprint("Messages: \n"+stderr_str+"\n")
+			else:
+				Kprint("Succeded !!!"+"\n")
+		return(0)	
 def premain():
 	if not os.path.exists("log"):
 		os.makedirs("log")
@@ -26,6 +43,7 @@ def premain():
 		os.rename("./log/Build.log", "./log/Build_"+time+".log")
 	
 	Logf = open("./log/Build.log", "wb+")
+	ResynchAll()
 
 def postmain():
 	Logf.close()
