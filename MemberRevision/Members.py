@@ -16,6 +16,10 @@ Proj_NAme = "MFC400"
 MainDir = "D:/Sandboxs/"
 ListOfDirs = ["\\06_Algorithm\\04_Engineering\\05_Deliverables\\dll\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\sdl\\algo\\","\\06_Algorithm\\04_Engineering\\05_Deliverables\\lib\\", "\\06_Algorithm\\04_Engineering\\05_Deliverables\\cfg\\algo\\joint\\"]
 
+ListOfFilesToConfig = ["\\06_Algorithm\\shared_project_config_rte.xml","\\06_Algorithm\\shared_project_config_sim_bundle.xml","\\06_Algorithm\\shared_project_config_tools.xml","\\06_Algorithm\\shared_project_config_test_tools.xml"]
+
+
+
 ListOfDirsToSynchNotRecursive = ["/06_Algorithm/"]
 
 class UserInfo:
@@ -26,6 +30,23 @@ class UserInfo:
 		
 		
 MyInfo = 	UserInfo(0)
+
+def ConfigSharedMembers():
+	for file in ListOfFilesToConfig:
+		file = SOURCE_FOLDER = MainDir+SOURCE_SB+file
+		ver = GetRevision(file)
+		DestFile = file.replace(SOURCE_SB, Destination_SB)
+		R_old = GetRevision(DestFile)
+		SetRevision(DestFile, ver)
+		R_New = GetRevision(DestFile)
+		print("file :"+DestFile)
+		print("Old Rev. :" +R_old)
+		print("New Rev. :" +R_New)
+		
+		
+		
+		
+	
 def dump(obj):
    print("#"*30)
    for attr in dir(obj):
@@ -59,23 +80,29 @@ def InitUserInfo():
 	
 	dump(MyInfo)
 	
-	
-def ResynchAll():
+def ResynchFolder(Folder):
 	commandref = "si resync --norecurse "
+	Build_Command = commandref + " -S "+Folder
+	proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	stdout_str, stderr_str = proc.communicate()
+	if debug == 0:
+		print (Build_Command)
+		if stdout_str :
+			Kprint("Out: \n" + stdout_str+"\n")
+		if stderr_str:
+			Kprint("Messages: \n"+stderr_str+"\n")
+		else:
+			Kprint("Succeded !!!"+"\n")
+	return(0)	
+	
+def ResynchAll():	
 	for Dir in ListOfDirsToSynchNotRecursive:
-		folder = MainDir+Destination_SB+Dir+"project.pj"
-		Build_Command = commandref + " -S "+folder
-		proc=subprocess.Popen(Build_Command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-		stdout_str, stderr_str = proc.communicate()
-		if debug == 0:
-			print (Build_Command)
-			if stdout_str :
-				Kprint("Out: \n" + stdout_str+"\n")
-			if stderr_str:
-				Kprint("Messages: \n"+stderr_str+"\n")
-			else:
-				Kprint("Succeded !!!"+"\n")
-		return(0)	
+		Folder = MainDir+SOURCE_SB+Dir+"project.pj"
+		ResynchFolder(Folder)
+		Folder = MainDir+Destination_SB+Dir+"project.pj"
+		ResynchFolder(Folder)
+		
+		
 def premain():
 	if not os.path.exists("log"):
 		os.makedirs("log")
@@ -86,8 +113,10 @@ def premain():
 		os.rename("./log/Build.log", "./log/Build_"+time+".log")
 	
 	Logf = open("./log/Build.log", "wb+")
-	ResynchAll()
+	
 	InitUserInfo()
+	ConfigSharedMembers()
+	ResynchAll()
 
 def postmain():
 	Logf.close()
